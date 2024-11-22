@@ -1,0 +1,11 @@
+contact_id,type,duration
+1,incoming,120
+1,outgoing,180
+2,incoming,300
+2,outgoing,240
+3,incoming,150
+3,outgoing,360
+4,incoming,420
+4,outgoing,200
+5,incoming,180
+5,outgoing,280
