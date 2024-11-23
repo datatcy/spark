@@ -1,0 +1,11 @@
+race_year,race_name,race_date,circuit_location,driver_name,driver_number,driver_nationality,team,grid,fastest_lap,race_time,points,ingested_date
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Sergio Pérez,11,Mexican,Racing Point,19,6,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Pietro Fittipaldi,51,Brazilian,Haas F1 Team,17,50,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Kevin Magnussen,20,Danish,Haas F1 Team,20,50,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Nicholas Latifi,6,Canadian,Williams,18,49,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Antonio Giovinazzi,99,Italian,Alfa Romeo,14,29,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,George Russell,63,British,Williams,16,54,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Sebastian Vettel,5,German,Ferrari,13,37,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Charles Leclerc,16,Monegasque,Ferrari,12,24,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Kimi Räikkönen,7,Finnish,Alfa Romeo,15,53,\N,0.0,2024-07-11T21:08:26.709-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Daniil Kvyat,26,Russian,AlphaTauri,7,47,\N,0.0,2024-07-11T21:08:26.709-07:00

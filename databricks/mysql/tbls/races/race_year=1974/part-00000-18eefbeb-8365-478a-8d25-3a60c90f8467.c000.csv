@@ -1,0 +1,16 @@
+race_id,round,circuiit_id,name,race_timestamp,ingestion_date
+590,1,25,Argentine Grand Prix,"",2024-07-10T01:25:19.559-07:00
+591,2,18,Brazilian Grand Prix,"",2024-07-10T01:25:19.559-07:00
+592,3,30,South African Grand Prix,"",2024-07-10T01:25:19.559-07:00
+593,4,45,Spanish Grand Prix,"",2024-07-10T01:25:19.559-07:00
+594,5,50,Belgian Grand Prix,"",2024-07-10T01:25:19.559-07:00
+595,6,6,Monaco Grand Prix,"",2024-07-10T01:25:19.559-07:00
+596,7,47,Swedish Grand Prix,"",2024-07-10T01:25:19.559-07:00
+597,8,39,Dutch Grand Prix,"",2024-07-10T01:25:19.559-07:00
+598,9,41,French Grand Prix,"",2024-07-10T01:25:19.559-07:00
+599,10,38,British Grand Prix,"",2024-07-10T01:25:19.559-07:00
+600,11,20,German Grand Prix,"",2024-07-10T01:25:19.559-07:00
+601,12,23,Austrian Grand Prix,"",2024-07-10T01:25:19.559-07:00
+602,13,14,Italian Grand Prix,"",2024-07-10T01:25:19.559-07:00
+603,14,48,Canadian Grand Prix,"",2024-07-10T01:25:19.559-07:00
+604,15,46,United States Grand Prix,"",2024-07-10T01:25:19.559-07:00
