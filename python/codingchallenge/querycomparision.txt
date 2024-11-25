@@ -1,0 +1,63 @@
+
+80 - 51 Dungeons and Dragons Dice
+
+
+94 - 77 Point to Segment Distance
+93 - 86 brainfuck interpreter
+
+
+111 - 83 Graph Generator
+
+92 -145 modular_exponential
+84 - 122 QuickSort
+
+90 - 98 Azimuth at Treasure Island
+105 - 69 Fibonacci Divisibility
+107 - 92 Binary Heap
+95 music
+97 add/mul/div/sub/mod/sort
+
+117 - 143 Extended Euclidean Algorithm
+
+
+
+83 - 172 cloud height measurement
+82 - 105 area of a polygon
+81 - 97 Girls and Pigs
+
+77 - 80 Duel Chances
+75 - 73 Hexagonal Grid
+74 - 156 Luhn Algorithm
+73 - 171 Tree Height Measurement
+72 guess
+71 clock
+70 brainfuck
+69 - 75 Yacht or Dice Poker
+68 - 127 Anagrams
+67 - 134 Flying Text Screensaver
+66 - 121 Insertion Sort
+65 - 39 share price volatility
+64 - 62 Prime Ranges
+63 - 72 Funny Words Generator
+62 - 69 Fibonacci Divisibility
+60 - 46 Tic-Tac-Toe
+59 Python program to print prime factors
+58 shuffle
+57 - checkmate
+55 - 34 Binary Search
+54 - quadratic_roots
+52 parity check
+49 -114 printingcycle Tricky Printing
+44 - 18 Square Root
+42 - 47 Caesar Shift Cipher
+40 - 19 Matching Brackets
+36 - 32 Josephus Problem
+33 - 31 Rotate String
+31 pallindrom
+29/25 - 27 Bubble Sort
+24 - 14 Modular Calculator
+23 - 12 Modulo and time difference
+----20 -25 search --
+
+
+

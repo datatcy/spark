@@ -1,0 +1,392 @@
+
+Spark-submig --class <main-class> --master <master-url> --deploy-mods <deploy-mode> 
+application.jar[applicatioin-args]
+--class Not appicable for PySpark
+--master yarn,local[3]
+--deploy-mode. Client or cluster
+--conf spark.executor.memoryOverhead=0.20
+--driver-cores 2
+--driver-memory 8G
+--num-executors 4
+--executor-cores 4
+--executor-memory 16G
+
+spark.conf.set("spark.databricks.optimizer.dynamicPartitionPruning","true")
+Driver Memory
+	spark.driver.memory
+	spark.driver.memoryOverhead
+
+Executor Memory
+	spark.executor.memoryOverhead = 0.1 (10% of heap memory default)
+	spark.executor.memory = 8 GB
+	spark.memory.offHeap.size = 0
+	park.executor.pyspark.memory = 0
+
+	spark.executor.memory=8GB
+	spark.executor.core = 4
+	spark.executor.memoryOverhead = 0.1 (800 MB default 10% of memory)
+	spark.memory.fraction
+	spark.memory.storageFraction
+	spark.memory.offHeap.enabled
+	spark.memmory.offHeap.size
+	spark.executor.pyspark.memory 
+
+yarn.scheduler.maximum-allocation-mb 
+yarn.nodemannager.resource.memory-mb
+
+spark.sql.shuffle.partitons = 10 (default is 200)
+AQE Configuration:
+Adaptive Query Execution offers following features
+ - Dynamically coalescing shuffle partition
+ - Dynamically switching join strategies
+ - Dynamically optimizing skew joins
+
+Tuning spark.sql.shuuffle.partitions is complex for following reasons
+ - Small number of partitions cause
+  * Large partition size
+  * Task needs large amount of memory
+  * May cause OOM exception
+ - Large number of partitions cause
+   * Small/tiny partition size
+   * Many network fetch causing inefficient network I/O
+   * More burden for Spark Task Scheduler
+
+	spark.sql.adaptive.enable
+	spark.sql.adaptive.coalescePartitions.initialPartitionNum
+	spark.sql.adaptive.coalescePartition.minPartitionNum
+	spark.sql.adaptive.advisoryPaartitionSizeInBytes
+	spark.sql.adaptive.coalesePartitons.enabled
+Dynamically switching join strategies
+	sparak.sql.autoBroadcastJoinThreshold = 10 MB
+	spark.sql.adaptive.localShuffleReader.enabled = true
+Handlinng Data Skew in Spark Joins
+	spark.sql.adaptive.enabled = true
+	spark.sql.adaptive.skewJoin.enabled = true
+	spark.sql.adaptive.skewJoin.skewdPartitionFactor = 5
+	spark.sql.adaptive.skewJoin.skewedPartitionThresholdInBytes = 256MB
+Speculative Execution
+	spark.speculationn=true
+Tuning Speculation:
+	spark.specuulation.interval = 100ms
+	spark.specuulation.multiplier =1.5
+	spark.specuulation.quantile = 0.75
+	spark.specuulation.minTaskRuntime = 100ms
+	spark.specuulation.task.duration.threshold = None
+
+Dynamic Allocation
+	spark.dynamicAllocation.enabled = true
+	spark.dynamicAllocation.shuffleTracking.enabled = true
+	spark.dynamicAllocation.executoridleTimeout = 60s
+	spark.dynamicAllocation.schedulerBacklogTimeout=1s
+Spark Schedulers
+	spark.scheduler.mode = FAIR
+	
+Configuration to be considered while running spark app in production
+Driver
+	1. spark.driver.cores
+	2. spark.driver.memory
+	3. spark.driver.memoryOverheaad
+Executors
+	1. spark.executor.cores
+	2. spark.executor.memory
+		1.spark.memory.fraction
+		2.spark.memory.storageFraction
+		3.spark.python.worker.memory
+	3. spark.executor.emmoroyOverhead
+		1.spark.executor.memoryOverheadFactor
+		2.spark.executor.pyspark.memory
+	4. spark.executor.instances
+
+Driver Memory
+spark.driver.memory =1 GB -> JVM Memory
+spark.driver.memoryOverhead = 0.01 -> max(384 MB or 10% for driver memory)
+
+Executor Memory
+Overhead Memory - spark.executor.memoryOverhead = 0.1 (10% of heap memory default)
+Heap memory - spark.executor.memory = 8 GB
+Off Heap Memory - spark.memory.offHeap.size = 0
+PySpark Memory - spark.executor.pyspark.memory = 0
+
+yarn.scheduler.maximum-allocation-mb - to check possible allocate memeory in driver and executor
+yarn.nodemannager.resource.memory-mb - to check possible allocate memeory in driver and executor
+	Exp: in AWS instance type  = c4.large(3.75 GB RAM )
+		 yarn.scheduler.maximum-allocation-mb = 1792 MB 
+		 In this senario we can not ask more than 1.792 GM memory for executor allocation. This is maximum physical momory limit for worker node
+
+Executor Memory Distribution:
+	Senario
+	spark.executor.memory=8GB
+	spark.executor.core = 4
+	spark.executor.memoryOverhead = 0.1 (800 MB default 10% of memory)
+	spark.memory.fraction
+	spark.memory.storageFraction
+	spark.memory.offHeap.enabled (in the case of larger heap memory that will tend to create JAVA Grabage Collection, by enabling this will help to use mixed of heap memory and offheap memory, by default this is disabled)
+	spark.memmory.offHeap.size
+	spark.executor.pyspark.memory (if we need python library addition to the libraries in pyspark we have to have addition memory for this, but default this is not requered bcoz most of python libraries are included in pyspark)
+
+	# The heap memory 8000 MB will further divided into
+		1. Reserved Memory 300 MB  - Fixed Reserve for Spark Engine
+		2. Spark Memory 4620 MB (60% of 8000 MB - 300 MB) spark.memory.fraction =0.6
+			used for Data Frame 
+				1. Operations
+				2. Caching
+			These further divided into
+				1. Storage Mempory Pool 2310 spark.memory.storageFraction =0.5 (default 50% of Spark Memory)
+				this is used for cacheing data frame and its long term
+				2. Executor Memory Pool 2310 MB 
+				this is used for cumputing data frame operations, like add, agg etc and its short term. once computation is done it will freeup the memory
+			Senario 1: we have 4 core for executor, which mean we have have 4 slosts in a executor that is nothing but 4 parallel task/theard per JVM
+			Senario 2: we have 2 tasks assinged to 2 slots out of 4 slots, these two tasks will share 50-50% of Executor memory
+			Senario 3: We have 4 tasks assinged to 4 slots out of 4 slots, these 4 task will share 25-25-25-24% of Exrcutor memory AND if it needed these tasks will take memory from 'Storage Mempory Pool' until there is a space from Storage Mempory Pool which contains Data Frame Cachea
+			Senario 3: The Storage Memory and the executor Memory size can change interchangebly, when mean for example if the Data Frame need more memory then allocated in the storage memory then this will expand and get from execution memory
+			Senario 4: If the computation has to do join operation, but the storage memory kind of loaded, then some of the Data Frame cachea will be stored in a Hard Drive. 
+			Senario 5: Out of memory exeception will through when Data Frame in storeage memory and the execution memory is full and the data frame chache will not be able to push in to hard drive.
+		3. User Memory 3080 MB (40% of 8000MB - 300 MB)
+			used for operations such as
+				1. User defined data structures
+				2. Spark internal metadata
+				3. UDFs created by user
+				4. RDD connnversion operations
+				5. RDD linneage and dependency
+
+Spark Adaptive Query Exeqution:
+Benefits fo AQE
+	1. Dynamically coalescing shuffle partitions
+	2. Dynamically switching join strategies
+	3. Dynamically optimizing skew joins
+
+	Lets understand whats is AQE
+	Query: Select tower_location, sum(call_durationn) as duration_served from call_records group by tower_location
+	Data: 	call_id 	call_duration 	tower_location
+			10001		6 				bangalore_tower_a
+			10002		12 				bangalore_tower_b
+			10003		15				bangalore_tower_b
+			10004		28 				bangalore_tower_a	
+	With the above query, this will create TWO stages execution plan bcon it has one Group By that creates wide transfarmation
+	Stage 1 -> Output Exchange -> Stage 2  --> Input Exchange	
+		with the config spark.sql.shuffle.partitons = 10, it creates 10 Task in the stage2. Assume out of 5 containes data remaining 5 no data which not worth for to schedule by the driver.
+		The AQE will do the statistic and create optimized partitions to avoid unnecessery partitions by considering the folloqing
+		- small number of partions cause
+			* Large partition size
+			* Task needs large amount of memory
+			* May cause OOM exception
+		- Large number of partitions cause
+			* Small/tiny partitions size
+			* Many network fetch causing inefficient nnetwork I/O
+			* More burdern for Spark Task Schedular
+	- Enable AQE to dynamically set shuffle partitons
+		* Determinnne and set the best shuffle partiton number
+		* Combine or coalesec tne small prations
+	AQE Configuration:
+		spark.sql.adaptive.enable
+		spark.sql.adaptive.coalescePartitions.initialPartitionNum
+		spark.sql.adaptive.coalescePartition.minPartitionNum
+		spark.sql.adaptive.advisoryPaartitionSizeInBytes
+		spark.sql.adaptive.coalesePartitons.enabled
+
+2. Dynamically switching join strategies
+	spark.sql.autoBroadcastJoinThreshold = 10 MB
+	spark.sql.adaptive.localShuffleReader.enabled = true
+	In this stergy this AQE will change from sort merge join to Dynamically Broadcast join
+	Query:
+		select * from large_tbl_1 join large_tbl_2 ON large_tbl_1.key = large_tbl_2.key WHERE large_Tbl_2.value='some_value'
+	- Broadcase shuffle join is the most performannt join strategy
+	- You can appoy broadcast join if one side of the join can fit well in memory
+	- One table must me shorter than spark.sql.autoBroadcaastJoinThreshold
+	- Estimatinng the table size is problematic inn following scennarios
+		- You aapplied aa highlyselective filter on the table
+		- Your join table is generated at runtime after a series of complex operations
+	- Spark AQE can help
+		- AQE computes the table size at shuffle time
+		- Replans the join strategy at runntime converting sort-merge join to a broadcasat hash join
+3. Handlinng Data Skew in Spark Joins
+	spark.sql.adaptive.enabled = true
+	spark.sql.adaptive.skewJoin.enabled = true
+	spark.sql.adaptive.skewJoin.skewdPartitionFactor = 5 (AQE is consider the partition is Skewed when the larger partition size is 5 times higher then the median size partition)
+	spark.sql.adaptive.skewJoin.skewedPartitionThresholdInBytes = 256MB ( AQE  cosider the partiton is skewed when the larger partition sixe is more than 256MB)
+
+	The AQE will consider the Partitions are Skewed only the above last TWO configuration is broken
+
+Dynamic Partition Pruning:
+	spark.sql.optimizer.dynamicPartitionPruning.enabled (default enabled)
+
+	Why do we need Dynamic Partiton Pruning?
+	What is Dynamic Partition Pruning?
+	Query: Pulls from SINGLE table
+		order_df = spark.read.parque('orders')
+		summary_df = order_df.where('order_date ==2021-02-03').selectExp('sum(unit_price * qty') aas total_sales')
+
+		Spark Query Optimization, with the above query the assume the table was partitioned on data column, then this query can be optimized by
+		1. Predicate Pushdown
+			Prediicate Pushdown mean the spark query will push down the WHERE clause filter and apply the filter as earlier as possilbe, but the predicate pushdown is not worth if the filter column is not partitioned
+		2. Partition Pruning 
+			The spark query will fetch the SPECIFIC partitioned data as mentioned in the filter clause in the query among the all the data in the partitioned data of the column is call Partition Pruning
+	What is Dynamic Partition Pruning? Pulls from TWO tables
+		Let assume we are joing Data Dimension table and Order Fact table 
+		Query:
+			Select year,month,sum(unit_price * qty) as total_sales from orders join dates on order_date == full_date group by year,month where year='2021' and month == '02'
+			- enable Dynamic partitionn Pruning feature
+			- Apply broadcast on the dimension table
+		to implement broadcaast on the dimension table
+		join_expr = order_df.order_date == date_df.full_date
+		order_df.joinn(f.broadcast(date_df),join_expr,'inner').filter('year==2021 andn month==2').groupBy('year','month').agg(f.sum(f.expr('unit_price * qty')).alias('total_sales')) 
+		# The spark Dynamic Partition Pruning can take a filter condition from the Dimension table and inject into the fact tableas aa sub query. Once the sub query in inject into the fact table, the the fact table can be enable Partition Pruning
+
+Spark Chache
+	1. How do you cache
+		1. cache()
+		2. persist()
+			persist([StorageLevel(uuseDisk,useMemory,useOffHeap,deseriaalized,replicaation=1)])
+		- different between these is cache() dosn't have argument but persist() has optional argument
+		- both are lazy methds, so they do the executed until any actions is performed
+		- Spark never chache a portion of a partion, exp if partition is 7.5 it chaches 7 partion and not .5 partion
+		- By default data stored in a disk is in serialied format, but when spark what to read/comput it has to be in deseroalied format and it takes little extra space in the memory
+		StorageLevel can have options of
+			1.DISK_ONLY
+			2.MEMORY_ONLY
+			3.MEMORY_AND_DISK
+			4.MEMORY_ONLY_SER
+			5.MEMORY_AND_DISK_SER
+			6.OFF_HEAP
+			7.MEMORY_ONLY_2
+			8.MEMORY_ONLY_3
+	2. Why should you cache
+	3. When cache and when not cache
+		when you what to access larger data from accross spark action then cache it. Don't cache if DF is small in size and not using the DF frequently
+	4. How to un-cache
+		df.unpersist()
+	5. Caching formats
+	6. Caching memory or disk
+
+Repartition and Coalese:
+	Repartitionn your DF
+	1. repartition(numPartitions, *cols)
+		- Hash based partitions
+	2. repartitionByRange(numPartitions, *cols)
+		- Range of values based partitoning
+		- Data sampling to determine partition ranges
+	3. When shoud youo repartition
+		- Repartition causes shuffle
+		- Do not repartitiono without a reason
+		- Common Repartition Scenarios
+			* Dataframe reuse adn repeated column filters
+			* Dataframe partitions are not well distributed
+			* Large Dataframe partitions or skewed partitions
+		- Do not repartition for reducing number of partitons
+	Use coalesce(n) to reduce partition
+		1. Coalese dosen't cause a shuffle/sort
+		2. It combines local partitions only
+		3. Coaalesce will not increase the number of partitons
+		4. Coalesce can cause skewed partitionns
+
+Data Frame Hints:
+	1. Partitioning Hints
+		- COALESCE
+		- REPARTITION
+		- REPARTITION_BY_RANGE
+		- REBALANCE
+	2. Join Hints
+		- BROADCAST alias BROADCASTJOIN and MAPJOIN
+		- MERGE alias SHUFFLE_MERGE and MERGEJOIN
+		- SHUFFLE_HASH
+		- SHUFFLE_REPLIICATE_NL
+	3. Using Hints in Spark SQL
+	/*+ hint[,...]*/
+	SELECT /*+ COALESCE(3)*/ FROM T;
+	SELECT /*+ REPARTITION(3)*/ FROM T;
+	SELECT /*+ BROADCAST(t1) */ * FROM T1 INNER JOIN t2 ON t1.key = t2.key;
+	SELECT /*+ MERGE(t1) */* FROM t1 INNER JOIN t2 ON t1.key= t2.key;
+
+	4. Using Hints in Spark Dataframe
+		- Use Spark SQL functions
+		- use Dataframe.hint() method
+
+Broadcast Variables
+	Keep the lookup dat in a file load it at runtime and share it with the UDF using one of the follwing way
+		1. Closure
+		2. Broadcast
+			Baroadcast Variables
+				1. Shared and immutable data set
+				2. Serialized only once per worker
+				3. Caached on workers for future use
+				4. Lazy serialization 
+				5. Must fit in the task memory
+Accumulators
+1. Spark Low Level API
+2. Used only in rare scenarios
+	- Global mutable variable
+	- Can update them per row basis
+	- Can implement counters and sums
+
+Speculative Execution:
+	spark.speculation=true
+	What is Speculative Execution?
+		In each spark Job is divided in to Stage then parallel Tasks.
+		Senario1: say the stage has 10 tasks and out of 10 9 taskes are completed at same time but one taks still executing. This senario will increase the Job execution time and stage as well. In this senario Speculative Execution will copy the task that takes longer time and try to execute on the other worker node whichis available. If the copy of this task is completed then the souce of this copy task will be terminated
+	Speculative task does not help in the follwing
+		- Data Skew
+		- Memory Crisis
+	Tuning Speculation:
+		spark.specuulation.interval = 100ms
+		spark.specuulation.multiplier =1.5
+		spark.specuulation.quantile = 0.75
+		spark.specuulation.minTaskRuntime = 100ms
+		spark.specuulation.task.duration.threshold = None
+
+Dynamic Resource Allocator		
+	1.Scheduling Accross Application
+	2.Scheduling within Application
+	Resoource Allocation
+		1. Static Allocation (default)
+			What ever the application demanded the RM will provide, either the resources are fully utilize or not it keeps the resource until entire job finish. this is kind of First Come First Serve
+		2. Dynamic Allocation
+		these two statergy is not for RM but these are for Spark and its on how it request the resouces and how it releases the resources back to the RM
+		Dynamic Allocation
+			spark.dynamicAllocation.enabled = true
+			spark.dynamicAllocation.shuffleTracking.enabled = true
+			spark.dynamicAllocation.executoridleTimeout = 60s
+			spark.dynamicAllocation.schedulerBacklogTimeout=1s
+
+			Once the Dynamic Allocation is enabled, spark will release the executer to RM which are not used, but spark will request RM for resouces when it needed.
+
+Spark Schedulers:
+	Schedulinng within application
+	Spark Job Schedular
+	1. FIFO
+		- Fist job gets highest priority
+		- Consumes as muchas needed
+		- Next job gets leftover resouces
+	2. FAIR
+		- spark.scheduler.mode = FAIR
+		- Round robin slot allocaation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

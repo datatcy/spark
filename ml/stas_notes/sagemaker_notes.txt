@@ -1,0 +1,156 @@
+pip install wordcloud - visuvalization for text data
+ 
+Regression
+- Linear
+- Multilinear
+- Random Forest
+- XGBoost - regression and classification
+
+What is normqlizationb
+What is standadization
+what is LSS (least sum of squre)
+Regression: output contains continous numeric values
+Binary Classification : output label must be either 0 or 1
+Multiclass classification: output labeels must be from o to numberof_class -1
+
+- The best model opt9mizes either of the following
+- For regressio: focus on continuous metris such as mean square error, root mean squared error, cross entropy loss, absolute error
+- For classification: foucs on discrete metrics such as F1 score, precision, recall, or accuracy
+What is Hyperparameters
+What is overfitting
+What is L1, L2 regularization
+What is mean square error - regresstion MSE
+What is root mean square error - regresstion RMSE
+What is cross entropy loss - regresstion
+What is mean absolute error - regresstion MAE
+What is F1 score - classification
+What is precision - classification
+What is recall - classification
+what is accuracy - classification
+What is epochs
+What is r2
+- R2 represents the goodness of fit. exp. a regression between enginne size(independent), car price (dependent), If R2 =80 this means that 80% of the increase in the car price is due to increase in the engine size
+- R Sueare or the coefficient of determination represents the proportiobn of variance (of y) that has been explained by the independent variables in the model
+- A constant model that always predictw the expected value of y, disregarding the input features, will have an R2 score of 0.0
+- if R2 value of the independent variable is 0 then we can disregard this variable.
+
+What is adjusted r2
+- if R2 = 80, this means that 80% of the incrase in the car price is due to increase in engine size
+- Lets add another useless independent variable lets say 'age of the car driver' to Z-axis
+- Now R2 increases and becomes R2 = 85%
+- One limitation of R2 is that it increases by adding indepnendent variables to the model which is misleading since some added varia les miht be useless weith minimal significance
+- Adjusted R2 overcomes this issue by adding a penality wf we make an attempt to add independent variable that does not improve the model
+- Adjusted R2 is a modified  version of the R2 and takes into account the n umbers of predictors in the model
+- If useless predictors are added to the model, Adjusted R2 will decrese
+- If useful predictors are added to the moded, Admusterd R2 will increase
+- K is the number of independent variables and 'n' is the number of samples
+What is ensonble in XGBoosting
+Ensemble techniques such as bagging and boosting can offer an extermely powerful algorithm by combining a group of relatively weak/average ones
+What is Bagging and Boosting
+- Boosing can reduce variance and oerfitting and increase the model robustness
+What is scalling rate in Decision Tree / Random forest and its use
+Scalling is a small error intruduced in the model training to avoid overfitting the model
+What is Parameter
+y = ax + b here x, b are parameters which are get after the model was trained
+- Paramters: values that are obtained by the training process such as network weights and biases
+What is Hyperparameter
+- When we set the paramter before executing the model exp setting learning rate 'k' in XGboost
+Hyper Parameter: Values set prior to the training process such as number of neurons, layers, larning rate etc
+What is 'Learning Rate' Hyperparameters
+- Learning rate is hyperparameter that represents the size of the steps taken which indicates how aggressive you'd like to update the parameters
+What is learning rate
+What is global min/max
+What is regularization
+What is Batch Size
+- Batch size indicates the number of samples that will propagate throught the algorithm
+exp: let's assume that we have 1000 images for training. For batch sixe=50, the first image ( from index 1 to index 50) will be progaated to the training algorithm and used for training.  Then the next 50 images are progagated (index 50 to index 100). Procedure is repeated until we used all the training data
+What is Global minimum
+What is local minimum
+# Grid Search
+# Randomized Search
+# Bayesian Optimization
+What is Bias, Variance tradeoff
+What is Optimum Model (its a mid point where bias and variance meets during the training and testing the dataset)
+Model 1 (Linear Regression simple)
+- Model has High Bias because it is very rigid (not flexible) and cannot fit the training dataset well
+- Has small variance (variability) because it can fit the training data and teh testing data with similar level (the model is able to generalize better) and avoids overfitting
+- Performance is consistent between the training dataset and the testing dataset
+- Good generalization
+Model 2 (High order Ploynomial - complex)
+- Model has small bias because it is flexible and can fit the tranining dataset very well
+- Has large variance (variability) because the model over fitted the training dataset and it performs poorly on the testing dataset
+- Performanc ce varies geretly  between the training dataset and the testing dataset (high variablility)
+- Over fitted
+
+- If the model over fits the training dataset, then model has large variance
+The mid point (Perfect Regression) between the overfit and underfit during the training model is 'Tradeoff between the bias and variance" Bias (low error - Polynomial) and Variance (Larger error - Regression -stright line)
+What is 'L2' Regularization (Ridge Regression)
+- Ridge regression advantage is to avoid overfitting
+- Our ultimate model is the one that could generalize patterns. ie., works best on the training and testing dataset
+- Overfitting occurs when the trained model performs well on the training data and performs poorly on the testing datasets
+- Ridge regression works by applying a penalizing term (reducing the weights and biases) tp overcome overfitting
+- Ridge regression works by attempting at increasing the bias to improve variance
+- This works by changing the slope of the line
+What is 'L1' Regularization (Lasso Regression)
+- Lasso Regression is similar to Ridge regression
+- It works by introducting a bias term but instead of squaring the solope the absolute value of ther slope is added as a penalty terms
+When to use L1, L2 regularization
+- Lasso regression (L1 regression) helps reduce ovderfitting and it is particularly useful for feature seletion
+- Lasso regression (L1 regularization) can be useful if we have several independent variables that are useless
+- Ridge regression can reduce the slope close to zero (but not exacly zero) but lasso regression can reduce the slope to be exactly equal to zero
+When to choose L1
+- IF you believe that some features are not important and you can afford to lose themn, then L1 regularization is a good choice
+- The output might become sparse since some features might have been removed
+When to choose L2
+- If you believe that all features are important and you'd like to keep them but weigh them accordingly
+
+Classification Models:
+- Decision Trees
+- Random Forest Classifier (to check feature importance)
+- Logistic Regression - Binary Classifier
+- KNN  K Nearest Neighbour
+- SVM Support Vector Machine
+# Logistic Regression Classifier
+# Support Vector Machine (confusion matrix)
+# Classification Model KPI
+- Classification Accuracy = (TP +TN) / (TP +TN +FP +FN)
+- Misclassifcation rate (Error Rate) - (FP + FN) / (TP + TN +FP + FN)
+- Precision = TP / Total TRUE Prediction = TP / (TP + FP) (When model predicted TRUE class, how often was it reight)
+-Recall = TP/ Actual TRUE = TP/(TP+FN) (When the class was actually TRUE, how often did the classifier get it right?)
+What is Accuracy rate
+What is Missclassfication rate
+What is Precision
+What is Recall
+What is ROC Receiver Operating Characteristi curve
+- ROC curve is a metric that assesses the model ability to distinguish between binary 0 or 1 lases
+- The ROC curve is created by plotting the true positive rate TPR against the false positi rate(FPR) at various threshold setting
+- The true-positive rate is also known as sensitivity, recall or probability of detection in machine learning
+- The false-positive rate is also known as sensitivity, recall or probaliblity of detection in machine learning
+What is AUC Area Under Curve
+What is ROC Receiver Operating Charecteristics
+What is Hyperlane, Max Margin, Support Vectors in SVM (Support Vector Machine)
+Random Forest Classifier
+- Random Forest Classifier is a type of ensemble algorithm
+K Nearest Neighbour Classifier (KNN)
+- KNN algorithm is a classification algorithm
+- KNN works by finding the most silimar dat points in the training data, and attempt to make an educated guss based on their classifications
+What is Euclidian distance
+
+Maive Bayes Classification
+- Naive Bayes is a classifcation technique based on Bayes Theorem
+
+
+What is Synchronouus Invocation
+- with synchronous invocation you wait forthe funcgion to process the event and return a response
+- Synchronous invocations are best suuited for Machine Learning workflow
+
+What is Asyn hronous Invocation
+- with asynchronous invacation, Lambda queues the event for processing, so you don't have to wait for a responnse from Lambda
+- For asynchronous invactaion, Lambda handles retries and can send invocation records to a destination
+
+
+What is crosvalidation?
+in traing a model before validating the model with training data, we have to get the best model by combining different parameters (permutation,combination) with hyperparameter tunning. Once we have this best model we fit this model for training a data with multiple fold (may to 3-5). 
+
+
+
