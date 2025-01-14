@@ -1,0 +1,162 @@
+Data Lake
+	- A data lake is a centralized repository that allows organizations to store all their structured and unstructured data at any scale
+	- Built usingn Hadoop or cloud-based services like AWS S3, and provide a low cost way to store large amounnts of data in various formats
+
+Delta Lake
+	- Delta Lake is an open-source storage layer that provides ACID transactions on top of data lakes
+	- Delta Lake addresses some of the challenges of traditional data lakes by adding reliablility, scalability and performance
+	- Delta Lake provides featues like schema enforcement, versioning, data indexing, and ACID transactions, which makes it easier to manage large data sets
+	- Delta Lake enables data engineers and data scientists to work collaboratively
+
+Data Warehouse
+	- A data warehouse is a large, centralized repository of data that is used for reporting and analysis
+	- Data warehouse typicaally use a relational database management system to store data
+	- It is optimized for query performance, scalability and reliablity
+	- They are often used in BI applications to provide users with insights and trends from large datasets
+Lakehouse
+	- Its a combined featues of data warehouse, data lekes
+	- Lakehouse architecture is built on top of Delta Lake and allows users to have
+		- ACID transactions on large datasets
+		- fast analytics
+		- data science capabilities in one platform
+Cluster Node Type
+	- A Cluster connsists of one driver node  and zero or more worker nodes
+	- Driver Node: Maintains state information of all notebooks attached to the cluster annnd also maintains the SparkContext, interprets all the commands you run from a annotebook or a library on the cluster and the runs the Apache Spark master that coordinates witht the Spark executors
+	- Worker Nore: Run the Spark executors annd other services required for proper functioning clusters. When you distribute your workloaad with Spark, all the distrubuted procrssing happenns on worker nodes.  Databricks runs one executors per worker node.  Therefore, ther rems executor and worker and used interchangeably in the context of the Databricks architecture
+	Access Mode: 
+		- Single user: Only one user access, mode supports python, sql, scala,R
+		- Shared: Multiple user access, only available inpremium, supports python, sql
+		- No isolation shared: multiple user access, supports python, sql
+		- Custom: Legacy Configuration
+	Photon Acceleration:
+		- Photon is available for clusters running databricks runtime 9.1 LTS and able
+		- If desiredm you can specify the instance type in the workder type andn driver type drop-down
+	Auto Scaling:
+		- you can specify min and max work nodes
+		- Not recommended for streaming 
+	Auto Terminations:
+		- Terminates the clusdtre after X minutes of inactivity
+		- Default value for single node annd standared clusters is 120 minnutes
+	Cluter VM type/size
+		- Memory Optimized
+		- Compute Optimized
+		- Storage Optimized 
+		- General Purpose
+		- GPU Accelerated
+	Cluster Plicy:
+	- Cluster policies are a set of rules to limit the configuration options available to users when they crate a cluster
+		- Unrestriced
+		- Personal Compute
+		- Power User compute
+		- Shared compute
+
+	Delta Lake
+		- Optimized stoage layer that provides foundation for storingn data and tables in Databricks lakehouse platform
+		- Parquet data files with a file-based transaction log for ACID transactions
+		ACID: Atomicity, Consistancy, Isolation, Durability
+		Atomicity - All transaction either succeed or fail completely
+		Consistanncy - Guarantees relate to how a given state of the data is observed by simulataneous operations
+		Isolaitonn - Referes to how simultaneous operatons potentially confilict with one another
+		Durablity - Means that comoitted chages are permanent
+		- Delta Lake is the default storage format for all operation on Databrick, unless specified, all tables on Databricks are Delta tables
+		- Opensource technology, not properetary technology
+		- Storage framework/layer, not storage format.medium
+		- Enabling building lakehouse, not data warehouse/database service
+	Delta Lake Advantages:
+		- Based on ACID transaction to object storage (Automicity, Consistancy, Isolation, Durability)
+		- Handle scalable metadata
+		- Full audit trail of all changes
+		- Builds upon standard data format: parquet + jsonn
+What are the data objects in Databricks Laakehouse?
+	- The Databricks Lakehouse aarchitecture combines data stored with the Delta Lake protocol in cloud object storage with metadata registred to a metastore
+	- There are FIVE primary objects in the Databricks Lakehouse
+		- Catalog: Grouping of Database
+		- Database or schema: Grouping of Database in a catalog. Database contain tables, views, functions
+		- Tables: Collection of rows and colums stored as data files in object storage
+		- Views: Saved query typically against one or more tables or data sources
+		- Functions: Saved logic that returnns a scalar value or set of rows
+What is meta store?
+	- The metastore conntains all of the metadata that defines data objecs in the lakehouse
+	Databricks provides the following metastore option:
+		- Unity Catalog: you ucan create a metastore to store & share metadata across muultiple Databricks workspace,  Unity catalog is manage at the account level
+		- Hive metastore: Databricks stores all metadata for build-in Hive metastore as a managed service. An instance of the metastore deploys to each cluster and securirely accesses metadata froma central repository fro each customer workspace
+		- External metastore: You can also brinng your won metastore to Databricks
+	- Regardless of the metastore used, Databricks stores all data associated with tables in objects storege configured by customer in tehir cloud account
+
+What is catalog?
+	- A catalog is the highest abstraction (or coarest grain) in the Databricks Lakehouse relational model.  Every database will be associated with a catalog & catalogs exist as objects within a metastore
+	- The build-in Hive metastore onlysupports a single catalog, hive_metastore
+What is a database
+	- A database is a collection of data objects, such as tables, views 
+What is table?
+	- The Databricks taable is a collection of structured data.  A Delta table stores data as a directory of files on cloud object storage andn registers table metadata to the metastore witin a catalog and schema
+	- As Delta Lake is the default storage provider for tables created in Databricks, all tables created in Databricks are Delta tables, by default
+	- Note that it is possible to dreate tables on Databricks that nnot Delta tables. These tables are not backed by Delta Lake and will not provide the ACID transaction and optimized performance of Delta tables
+	- There are two kinds of tables in Databrics
+		- Managed tables
+			Databricks manages both metadata and data for mannaged tables, when you drop table you also delete the underlying data
+		- Managed tables are the defult when creating a table. the data for a managed table resided in the location of the database itis registered to
+		- CREATE TABLE TABLE_NAME AS SELECT FROM * FROM ANOTHER TABLE
+		- Unmanaged (external) tables 
+			- Databricks only manages metadata froom unmanaged (external) tables
+			- when you drop a table, you do not affect the underlying data
+			- unmanaged tables will always specify a LOCATION during table cratetion
+			- you can eiher register an existing directory of data files as a table or provide a path when a table is first defined
+What is Views?
+	- Stores the text for a query typically againnst one or more data sources or tables in metastore
+	- Logical query against source tables
+	- Type of views:	
+		- Views (stored/classical)
+		- Temporary views
+			Session-scoped view, tied to spark session and dropped when the session ends
+				CREATTE TEMP VIEW view_name as query
+		- Global Temporary views
+			Cluster-scoped view, tide to the cluster
+			- As long as cluster is running any notebook attached to the cluster can access its global temporary views
+			CREATE GLOBAL TEMP VIEW view_name As query
+
+
+I am an IT engineer with over 15 years of extensive experience, seeking a challenging position in Data Engineering with a strong emphasis on Data Science and AI. Throughout my career, I have honed my skills in designing, implementing, and optimizing data pipelines, as well as developing robust data architectures. My comprehensive understanding of data science methodologies and machine learning algorithms enables me to leverage data-driven insights effectively. I am passionate about harnessing the power of data to drive innovation and solve complex business problems. With a proven track record of delivering high-quality solutions in dynamic environments, I am eager to contribute my expertise to a team at the forefront of technological advancement.
+
+
+http://linkedin.com/in/frank-xp-223196169
+
+5370320108964134
+
+spark.conf.set('spark.databricks.delta.schema.autoMerge.enable','true')
+set spark.databricks.delta.retentionDurationcheck.enable = false
+Schema Validation - Delta Table
+Schema Evaluation -- Manual:
+ALTER TABLE dev.demo_db.people_tbl ADD COLUMNS (birthdate STRING)
+ALTER TABLE dev.demo_db.people_tbl ADD COLUMNS (phonenumber STRING after lastname)
+ALTER TABLE dev.demo_db.fire_calls_tbl DROP columns(SupervisorDistrict, FirePreventionDistrict)
+
+ALTER TABLE dev.demo_db.fiire_Calls_tbo SET PROPERTIES ('delta.columnMapping.mode' = 'name',
+'delta.minReaderVersiion' = '2',
+'delta.minWriteVersion' ='5')
+
+Delta Table Utility:
+
+VACUME - to remove files
+REORGE - to reorge tables
+OPTIMIZE - create evenly balanced data fiiles with respect to their size on disk
+ZORDER - colocate the data by column
+
+REORG TABLE dev.demo_db.fiire_Calls_tbl APPLY (PURGE)
+OPTIIMIZE dev.demo_db.fiire_Calls_tbl ZORDER BY (Year,CalDate)
+VACUME dev.demo_db.fiire_Calls_tbl RETAIN 0 HOURS
+
+Schema Evaluatiion - Automatic:
+spark.conf.set('spark.databricks.delta.schema.autoMerge.enable','true')
+
+
+
+what is the pont of using with clause 
+How do you find 2nd rank in the data set
+How do you find duplicate in a column with no uusing sort
+two data set union all and full outer join
+
+
+
+
+

@@ -1,0 +1,20 @@
+sum(salary) OVER (PARTITION BY department_id) as department_salary_exp
+avg(salary) OVER (PARTITION BY department_id) as department_avg_salary
+min(salary) OVER (PARTITION BY department_id) as minimum_salary_by_department
+max(salary) OVER (PARTITION BY department_id) as maximum_salary_by_department
+count(salary) OVER (PARTITION BY department_id) as num_emp_by_department
+
+lead(order_date) OVER (ORDER BY order_date DESC) as prior_date
+lag(order_date) OVER (ORDER BY order_date DESC) as lag_prior_date
+lead(order_date,7,0) OVER (ORDER BY order_date DESC) as prior_date
+lead(order_date,7) OVER (ORDER BY order_date DSCE) as prior_date
+lead(product_id) OVER (PARTITION BY order_date ORDER BY revenue DESC) as next_product_id
+
+first_value(revenue) OVER (PARTITION BY order_date ORDER BY revenue DESC ) as first_revenue
+last_value(revenue) OVER (PARTITION BY order_date ORDER BY revenue ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) as last_product_id
+last_value(revenue) OVER (PARTITION BY order_date ORDER BY revenue ) last_revenue
+last_value(revenue) OVER (PARTITION BY order_date ORDER BY revenue ROWS BETWEEN CURRENT ROW AND UNBOUNDED FOLLOWING) as last_revenue
+
+rank() OVER (PARTITION BY department_id ORDER BY salary DESC) rank
+dense_rank() OVER (PARTITION BY department_id ORDER BY salary DESC) dense_rank
+row_number() OVER (PARTITION BY department_id ORDER BY salary DESC) row_number

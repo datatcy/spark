@@ -1,0 +1,14 @@
+user_id,post_id,action_date,action,extra
+1,1,2019-07-01,view
+1,1,2019-07-01,like,
+1,1,2019-07-01,share,
+2,2,2019-07-04,view
+2,2,2019-07-04,report,spam
+3,4,2019-07-04,view,
+3,4,2019-07-04,report,spam
+4,3,2019-07-02,view,
+4,3,2019-07-02,report,spam
+5,2,2019-07-03,view,
+5,2,2019-07-03,report,racism
+5,5,2019-07-03,view
+5,5,2019-07-03,report,racism

@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/francispaulraj/Training/Udemy/SageMaker/sparkml/mlruns/0/ee6a7b37b61d4fbb8214b2dc84ce5d23/artifacts
+end_time: 1728328347402
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee6a7b37b61d4fbb8214b2dc84ce5d23
+run_name: placid-shrew-190
+run_uuid: ee6a7b37b61d4fbb8214b2dc84ce5d23
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728328347368
+status: 4
+tags: []
+user_id: francispaulraj

@@ -1,0 +1,2 @@
+race_year,race_name,race_date,circuit_location,driver_name,driver_number,driver_nationality,team,grid,fastest_lap,race_time,points,ingested_date
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Pierre Gasly,10,French,AlphaTauri,9,53,+1:29.718,4.0,2024-07-11T21:08:26.709-07:00

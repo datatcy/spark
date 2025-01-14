@@ -1,0 +1,5 @@
+employee_id,name,reports_to,age
+9,Hercy,,43
+6,Alice,9,41
+4,Bob,9,36
+2,Winston,,37

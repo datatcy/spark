@@ -1,0 +1,58 @@
+$ git clone https://username@bitbucket.org/teamsinspace.documentation-test.git
+$ git clone ssh://git@bitbucket.org:teamsinspace/documentation-test.git
+
+git version
+git clone
+git init	
+git status
+git add
+git add .   (recursively add multiple files to be added)
+git commit -m "Initial Commit -so comment"
+git commit -am  (add and commit)
+git reset HEAD README.md (to unstage)
+git checkout --README.md  (blackout working directory changes)
+git log
+git help log
+git log --online --graph --decorate --color
+git rm README.md. (to remove a file which is already committed)
+git add -u (if you delete file out of git rm commend, you have to set to back to staging area, and then commit delete)
+git mv index.html web
+git mat .gitignore
+git remote add origin git@gthub.com:SCM-ninja/git-demo.git
+git remote -v
+git push -u origin master
+git push origin master
+git pull origin master
+git checkout main
+git switch develop
+mate readme.md
+git checkout develop (remote branch)
+Git branch -a
+Git log --oneline
+git branch -M main
+git remote add origin https://datatcy@github.com/datatcy/spark.git
+git remote -v
+
+
+aws <serviceName> help --no-verify-ssl
+1.aws cloud watch list-matrix-streams --no-verify-ssl
+2.To PULL all log-groups from CLOUDWATCH: aws logs describe-log-groups --no-verity-ssl
+3.To get specific log-group (/aws/lambda/DataConfiguration) from CLOUDWATH: aws logs describe-log-groups --log-group-name-prefix /aws/lambda/DataConfigurations --no-verity-ssl
+
+aws logs get-log-events --log-group-name   --log-stream-name --region us-west-2
+
+Codecommit:
+aws codecommit get-repository --repository-name acfs-cc-glue-athena
+
+-----
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/datatcy/spark.git
+git push -u origin main
+------
+
+
+

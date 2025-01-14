@@ -1,0 +1,9 @@
+user_id,time_stamp,action
+3,2021-01-06 03:30:46,timeout
+3,2021-01-06 03:37:45,timeout
+7,2021-06-12 11:57:29,confirmed
+7,2021-06-13 11:57:30,confirmed
+2,2021-01-22 00:00:00,confirmed
+2,2021-01-23 00:00:00,timeout
+6,2021-10-23 14:14:14,confirmed
+6,2021-10-24 14:14:13,timeout

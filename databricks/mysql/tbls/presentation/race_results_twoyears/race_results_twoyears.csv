@@ -1,0 +1,761 @@
+race_year,race_name,race_date,circuit_location,driver_name,driver_number,driver_nationality,team,grid,fastest_lap,race_time,points,position,current_date
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Valtteri Bottas,77,Finnish,Mercedes,2,57,1:25:27.325,26.0,1,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Lewis Hamilton,44,British,Mercedes,2,54,1:35:50.443,26.0,1,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Max Verstappen,33,Dutch,Red Bull,2,60,1:22:01.822,26.0,1,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Lewis Hamilton,44,British,Mercedes,2,52,1:21:08.452,26.0,1,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Max Verstappen,33,Dutch,Red Bull,2,61,1:44:31.275,26.0,1,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Lewis Hamilton,44,British,Mercedes,2,51,1:33:38.992,26.0,1,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Lewis Hamilton,44,British,Mercedes,1,53,1:34:05.715,26.0,1,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Lewis Hamilton,44,British,Mercedes,1,70,1:36:12.473,26.0,1,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Lewis Hamilton,44,British,Mercedes,1,58,2:19:35.060,26.0,1,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Valtteri Bottas,77,Finnish,Mercedes,3,51,1:34:00.364,26.0,1,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Lewis Hamilton,44,British,Mercedes,1,63,1:29:56.828,26.0,1,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Lewis Hamilton,44,British,Mercedes,2,63,1:28:32.430,26.0,1,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Lewis Hamilton,44,British,Mercedes,3,36,1:34:21.295,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Lewis Hamilton,44,British,Mercedes,2,47,1:32:06.350,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Valtteri Bottas,77,Finnish,Mercedes,1,50,1:31:52.942,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Lewis Hamilton,44,British,Mercedes,1,9,1:43:28.437,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Lewis Hamilton,44,British,Mercedes,2,62,1:29:07.084,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Lewis Hamilton,44,British,Mercedes,1,53,1:24:31.198,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Lewis Hamilton,44,British,Mercedes,3,60,1:35:03.796,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Charles Leclerc,16,Monegasque,Ferrari,1,23,1:23:45.710,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Charles Leclerc,16,Monegasque,Ferrari,1,47,1:15:26.665,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Sebastian Vettel,5,German,Ferrari,3,57,1:58:33.667,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Valtteri Bottas,77,Finnish,Mercedes,3,49,1:21:46.755,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Lewis Hamilton,44,British,Mercedes,3,66,1:36:48.904,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Valtteri Bottas,77,Finnish,Mercedes,1,37,1:33:55.653,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Max Verstappen,33,Dutch,Red Bull,1,61,1:33:14.678,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Valtteri Bottas,77,Finnish,Mercedes,1,68,1:30:55.739,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Lewis Hamilton,44,British,Mercedes,1,68,1:22:50.683,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Lewis Hamilton,44,British,Mercedes,1,45,1:28:01.283,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Max Verstappen,33,Dutch,Red Bull,4,46,1:19:41.993,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Lewis Hamilton,44,British,Mercedes,1,63,1:31:45.279,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Lewis Hamilton,44,British,Mercedes,1,28,1:24:08.761,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Pierre Gasly,10,French,AlphaTauri,10,34,1:47:06.056,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Lewis Hamilton,44,British,Mercedes,2,58,1:35:49.641,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Lewis Hamilton,44,British,Mercedes,6,56,1:42:19.313,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Lewis Hamilton,44,British,Mercedes,1,38,2:59:47.515,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Sergio Pérez,11,Mexican,Racing Point,5,69,1:31:15.114,25.0,1,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Max Verstappen,33,Dutch,Red Bull,1,14,1:36:28.645,25.0,1,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Max Verstappen,33,Dutch,Red Bull,1,69,+17.796,19.0,2,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Max Verstappen,33,Dutch,Red Bull,3,52,+5.856,19.0,2,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Lewis Hamilton,44,British,Mercedes,2,43,+11.326,19.0,2,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Max Verstappen,33,Dutch,Red Bull,3,60,+4.470,19.0,2,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Max Verstappen,33,Dutch,Red Bull,3,48,+1.254,19.0,2,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Lewis Hamilton,44,British,Mercedes,1,57,+20.886,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Valtteri Bottas,77,Finnish,Mercedes,4,42,+2.980,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Valtteri Bottas,77,Finnish,Mercedes,1,38,+6.552,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Lewis Hamilton,44,British,Mercedes,2,48,+1.524,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Valtteri Bottas,77,Finnish,Mercedes,1,55,+4.074,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Sebastian Vettel,5,German,Ferrari,4,9,+2.602,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Sebastian Vettel,5,German,Ferrari,1,57,+3.658,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Valtteri Bottas,77,Finnish,Mercedes,2,43,+18.056,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Charles Leclerc,16,Monegasque,Ferrari,1,58,+2.724,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Valtteri Bottas,77,Finnish,Mercedes,1,47,+24.928,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Sebastian Vettel,5,German,Ferrari,20,63,+7.333,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Lewis Hamilton,44,British,Mercedes,3,24,+0.981,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Valtteri Bottas,77,Finnish,Mercedes,3,47,+0.835,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Charles Leclerc,16,Monegasque,Ferrari,1,59,+2.641,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Valtteri Bottas,77,Finnish,Mercedes,4,50,+3.829,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Sebastian Vettel,5,German,Ferrari,1,38,+13.343,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Sebastian Vettel,5,German,Ferrari,2,68,+1.766,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Lewis Hamilton,44,British,Mercedes,5,26,+4.148,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Pierre Gasly,10,French,Toro Rosso,6,65,+6.077,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Max Verstappen,33,Dutch,Red Bull,2,55,+16.772,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Charles Leclerc,16,Monegasque,Ferrari,7,64,+2.700,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Valtteri Bottas,77,Finnish,Mercedes,4,62,+13.719,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Max Verstappen,33,Dutch,Red Bull,7,60,+8.702,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Max Verstappen,33,Dutch,Red Bull,3,53,+24.177,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Valtteri Bottas,77,Finnish,Mercedes,2,27,+8.448,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Carlos Sainz,55,Spanish,McLaren,3,40,+0.415,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Valtteri Bottas,77,Finnish,Mercedes,2,53,+4.880,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Max Verstappen,33,Dutch,Red Bull,2,53,+7.729,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Valtteri Bottas,77,Finnish,Mercedes,2,66,+25.592,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Valtteri Bottas,77,Finnish,Mercedes,1,63,+5.783,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Sergio Pérez,11,Mexican,Racing Point,3,50,+31.633,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Esteban Ocon,31,French,Renault,11,75,+10.518,18.0,2,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Valtteri Bottas,77,Finnish,Mercedes,2,40,+15.976,18.0,2,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Charles Leclerc,16,Monegasque,Ferrari,1,38,+6.131,16.0,3,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Lewis Hamilton,44,British,Mercedes,2,51,+35.199,16.0,3,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Lewis Hamilton,44,British,Mercedes,4,45,+13.858,16.0,3,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Lando Norris,4,British,McLaren,3,71,+5.491,16.0,3,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Valtteri Bottas,77,Finnish,Mercedes,2,66,+44.752,16.0,3,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Max Verstappen,33,Dutch,Red Bull,4,57,+22.520,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Sebastian Vettel,5,German,Ferrari,3,37,+13.774,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Sebastian Vettel,5,German,Ferrari,3,46,+11.739,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Max Verstappen,33,Dutch,Red Bull,4,57,+7.679,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Valtteri Bottas,77,Finnish,Mercedes,2,65,+3.162,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Charles Leclerc,16,Monegasque,Ferrari,3,63,+4.696,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Charles Leclerc,16,Monegasque,Ferrari,3,40,+18.985,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Valtteri Bottas,77,Finnish,Mercedes,3,53,+18.960,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Charles Leclerc,16,Monegasque,Ferrari,3,47,+30.117,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Daniil Kvyat,26,Russian,Toro Rosso,14,61,+8.305,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Sebastian Vettel,5,German,Ferrari,5,65,+1:01.433,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Valtteri Bottas,77,Finnish,Mercedes,4,27,+12.585,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Max Verstappen,33,Dutch,Red Bull,4,56,+3.821,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Charles Leclerc,16,Monegasque,Ferrari,1,52,+5.212,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Valtteri Bottas,77,Finnish,Mercedes,6,66,+3.553,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Max Verstappen,33,Dutch,Red Bull,3,42,+5.002,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Carlos Sainz,55,Spanish,McLaren,20,63,+8.896,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Charles Leclerc,16,Monegasque,Ferrari,3,44,+43.435,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Max Verstappen,33,Dutch,Red Bull,2,70,+33.698,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Valtteri Bottas,77,Finnish,Mercedes,2,66,+9.452,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Charles Leclerc,16,Monegasque,Ferrari,4,49,+18.474,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Valtteri Bottas,77,Finnish,Mercedes,1,44,+19.231,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Max Verstappen,33,Dutch,Red Bull,3,27,+15.455,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Lance Stroll,18,Canadian,Racing Point,8,42,+3.358,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Alexander Albon,23,Thai,Red Bull,4,51,+8.064,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Lewis Hamilton,44,British,Mercedes,1,48,+22.729,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Daniel Ricciardo,3,Australian,Renault,6,53,+14.613,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Max Verstappen,33,Dutch,Red Bull,3,62,+34.508,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Daniel Ricciardo,3,Australian,Renault,5,62,+14.320,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Sebastian Vettel,5,German,Ferrari,11,53,+31.960,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Alexander Albon,23,Thai,Red Bull,4,41,+8.005,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Lance Stroll,18,Canadian,Racing Point,10,85,+11.869,15.0,3,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Lewis Hamilton,44,British,Mercedes,3,37,+18.415,15.0,3,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Valtteri Bottas,77,Finnish,Mercedes,6,69,+51.043,13.0,4,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Sebastian Vettel,5,German,Ferrari,2,36,+26.422,13.0,4,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Charles Leclerc,16,Monegasque,Ferrari,1,53,+6.368,13.0,4,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Charles Leclerc,16,Monegasque,Ferrari,4,44,+52.239,13.0,4,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Daniel Ricciardo,3,Australian,Renault,4,44,+18.877,13.0,4,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Sebastian Vettel,5,German,Ferrari,3,16,+57.109,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Max Verstappen,33,Dutch,Red Bull,5,47,+6.408,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Max Verstappen,33,Dutch,Red Bull,5,45,+27.627,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Max Verstappen,33,Dutch,Red Bull,4,39,+17.493,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Sebastian Vettel,5,German,Ferrari,3,64,+9.167,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Max Verstappen,33,Dutch,Red Bull,3,9,+5.537,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Max Verstappen,33,Dutch,Red Bull,4,38,+34.905,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Sebastian Vettel,5,German,Ferrari,9,62,+19.610,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Pierre Gasly,10,French,Red Bull,5,48,+34.692,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Lance Stroll,18,Canadian,Racing Point,15,61,+8.966,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Charles Leclerc,16,Monegasque,Ferrari,4,49,+1:05.250,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Daniel Ricciardo,3,Australian,Renault,5,53,+45.515,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Lewis Hamilton,44,British,Mercedes,2,58,+4.608,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Max Verstappen,33,Dutch,Red Bull,9,47,+14.210,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Alexander Albon,23,Thai,Red Bull,6,36,+59.537,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Kimi Räikkönen,7,Finnish,Alfa Romeo,8,65,+9.452,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Valtteri Bottas,77,Finnish,Mercedes,20,31,+44.379,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Lewis Hamilton,44,British,Mercedes,5,67,+5.689,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Alexander Albon,23,Thai,Red Bull,6,67,+44.400,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Lance Stroll,18,Canadian,Racing Point,3,68,+57.579,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Daniel Ricciardo,3,Australian,Renault,8,49,+19.650,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Charles Leclerc,16,Monegasque,Ferrari,8,39,+29.289,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Lance Stroll,18,Canadian,Racing Point,5,56,\N,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Lando Norris,4,British,McLaren,6,50,+6.000,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Daniel Ricciardo,3,Australian,Renault,8,57,+10.417,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Sergio Pérez,11,Mexican,Racing Point,4,52,+30.558,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Sergio Pérez,11,Mexican,Racing Point,9,58,+16.070,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Charles Leclerc,16,Monegasque,Ferrari,4,66,+1:05.312,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Daniil Kvyat,26,Russian,AlphaTauri,8,62,+15.141,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Charles Leclerc,16,Monegasque,Ferrari,12,47,+33.858,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Lando Norris,4,British,McLaren,9,53,+11.337,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Carlos Sainz,55,Spanish,McLaren,8,80,+12.580,12.0,4,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Alexander Albon,23,Thai,Red Bull,5,42,+19.987,12.0,4,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Charles Leclerc,16,Monegasque,Ferrari,8,50,+1:09.107,11.0,5,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Pierre Gasly,10,French,Red Bull,8,72,+9.946,11.0,5,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Sebastian Vettel,5,German,Ferrari,7,53,+1:02.796,11.0,5,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Charles Leclerc,16,Monegasque,Ferrari,5,58,+58.203,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Sebastian Vettel,5,German,Ferrari,2,43,+36.068,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Charles Leclerc,16,Monegasque,Ferrari,4,45,+31.276,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Charles Leclerc,16,Monegasque,Ferrari,5,57,+13.361,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Max Verstappen,33,Dutch,Red Bull,9,67,+57.655,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Lewis Hamilton,44,British,Mercedes,4,69,+22.805,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Max Verstappen,33,Dutch,Red Bull,4,45,+39.458,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Carlos Sainz,55,Spanish,McLaren,7,63,+9.583,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Carlos Sainz,55,Spanish,McLaren,8,66,\N,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Alexander Albon,23,Thai,Red Bull,17,41,+1:21.325,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Nico Hülkenberg,27,German,Renault,6,53,+58.165,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Valtteri Bottas,77,Finnish,Mercedes,5,58,+6.119,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Alexander Albon,23,Thai,Red Bull,0,50,+38.348,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Carlos Sainz,55,Spanish,McLaren,7,46,+1:09.101,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Alexander Albon,23,Thai,Red Bull,5,48,+21.399,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Alexander Albon,23,Thai,Red Bull,6,42,+1:18.038,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Antonio Giovinazzi,99,Italian,Alfa Romeo,12,49,+10.201,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Sebastian Vettel,5,German,Ferrari,4,55,+1:04.357,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Carlos Sainz,55,Spanish,McLaren,8,63,+8.903,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Lando Norris,4,British,McLaren,9,66,+1:01.470,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Alexander Albon,23,Thai,Red Bull,13,68,+1:18.316,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Lando Norris,4,British,McLaren,5,41,+22.277,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Alexander Albon,23,Thai,Red Bull,9,46,+39.146,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Sergio Pérez,11,Mexican,Racing Point,4,58,\N,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Esteban Ocon,31,French,Renault,6,44,+40.650,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Valtteri Bottas,77,Finnish,Mercedes,2,51,+7.108,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Sergio Pérez,11,Mexican,Racing Point,7,59,+15.650,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Daniel Ricciardo,3,Australian,Renault,5,53,+52.065,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Carlos Sainz,55,Spanish,McLaren,10,53,+21.905,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Pierre Gasly,10,French,AlphaTauri,9,65,\N,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Charles Leclerc,16,Monegasque,Ferrari,7,62,+19.111,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Carlos Sainz,55,Spanish,McLaren,15,56,+34.363,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Carlos Sainz,55,Spanish,McLaren,15,46,+11.787,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Daniel Ricciardo,3,Australian,Renault,7,57,+13.330,10.0,5,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Lando Norris,4,British,McLaren,4,53,+1:00.729,10.0,5,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Pierre Gasly,10,French,Red Bull,6,55,+1:29.307,9.0,6,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Kevin Magnussen,20,Danish,Haas F1 Team,7,56,+1:27.156,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Lando Norris,4,British,McLaren,9,14,+45.754,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Sergio Pérez,11,Mexican,Racing Point,5,49,+1:16.416,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Pierre Gasly,10,French,Red Bull,6,57,+19.576,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Carlos Sainz,55,Spanish,McLaren,9,32,+53.454,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Daniel Ricciardo,3,Australian,Renault,4,55,\N,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Carlos Sainz,55,Spanish,McLaren,6,52,+1:35.462,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Lando Norris,4,British,McLaren,5,69,\N,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Carlos Sainz,55,Spanish,McLaren,13,50,+53.639,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Alexander Albon,23,Thai,Toro Rosso,16,63,+10.052,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Pierre Gasly,10,French,Red Bull,6,65,\N,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Sergio Pérez,11,Mexican,Racing Point,7,29,+1:24.448,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Alexander Albon,23,Thai,Red Bull,8,45,+59.315,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Alexander Albon,23,Thai,Red Bull,6,59,+11.663,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Carlos Sainz,55,Spanish,McLaren,5,53,+45.889,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Charles Leclerc,16,Monegasque,Ferrari,2,48,\N,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Max Verstappen,33,Dutch,Red Bull,4,65,+1:08.807,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Daniel Ricciardo,3,Australian,Renault,9,28,+1:30.366,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Daniel Ricciardo,3,Australian,Renault,11,44,+10.541,8.0,6,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Alexander Albon,23,Thai,Red Bull,5,49,+1:09.205,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Sergio Pérez,11,Mexican,Racing Point,6,63,+15.092,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Sergio Pérez,11,Mexican,Racing Point,17,68,+1:02.387,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Sebastian Vettel,5,German,Ferrari,5,49,\N,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Esteban Ocon,31,French,Renault,9,50,+26.937,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Lance Stroll,18,Canadian,Racing Point,6,45,+42.538,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Carlos Sainz,55,Spanish,McLaren,7,59,\N,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Alexander Albon,23,Thai,Red Bull,5,27,+42.712,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Daniel Ricciardo,3,Australian,Renault,7,38,+8.391,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Lando Norris,4,British,McLaren,11,59,+18.883,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Charles Leclerc,16,Monegasque,Ferrari,10,47,+1:02.186,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Pierre Gasly,10,French,AlphaTauri,12,53,+22.766,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Carlos Sainz,55,Spanish,McLaren,7,65,\N,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Sergio Pérez,11,Mexican,Racing Point,11,49,+19.652,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Max Verstappen,33,Dutch,Red Bull,2,53,+44.873,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Pierre Gasly,10,French,AlphaTauri,8,48,+11.942,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Alexander Albon,23,Thai,Red Bull,12,52,+13.842,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Carlos Sainz,55,Spanish,McLaren,6,48,+1:05.662,8.0,6,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Lewis Hamilton,44,British,Mercedes,1,34,+17.245,7.0,7,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Daniel Ricciardo,3,Australian,Renault,11,55,+1:13.748,7.0,7,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Nico Hülkenberg,27,German,Renault,11,52,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Kimi Räikkönen,7,Finnish,Alfa Romeo,8,45,+47.470,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Daniel Ricciardo,3,Australian,Renault,7,38,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Carlos Sainz,55,Spanish,McLaren,9,43,+1:23.826,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Kevin Magnussen,20,Danish,Haas F1 Team,8,66,+28.159,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Daniil Kvyat,26,Russian,Toro Rosso,7,31,+54.574,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Nico Hülkenberg,27,German,Renault,7,57,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Kimi Räikkönen,7,Finnish,Alfa Romeo,12,47,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Pierre Gasly,10,French,Red Bull,8,63,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Daniel Ricciardo,3,Australian,Renault,7,50,+54.401,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Romain Grosjean,8,French,Haas F1 Team,6,55,+16.838,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Kimi Räikkönen,7,Finnish,Alfa Romeo,10,65,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Daniil Kvyat,26,Russian,Toro Rosso,19,26,+1:29.657,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Sergio Pérez,11,Mexican,Racing Point,18,35,+1:13.802,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Lando Norris,4,British,McLaren,9,58,+14.769,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Sergio Pérez,11,Mexican,Racing Point,11,49,+48.728,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Pierre Gasly,10,French,Toro Rosso,9,43,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Sergio Pérez,11,Mexican,Racing Point,11,70,+1:13.819,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Lando Norris,4,British,McLaren,8,44,+1:30.764,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Lewis Hamilton,44,British,Mercedes,3,46,+11.139,6.0,7,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Sergio Pérez,11,Mexican,Racing Point,10,39,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Pierre Gasly,10,French,AlphaTauri,12,64,+16.682,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Lance Stroll,18,Canadian,Racing Point,12,65,+1:02.453,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Sergio Pérez,11,Mexican,Racing Point,4,39,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Pierre Gasly,10,French,AlphaTauri,11,52,+31.188,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Nico Hülkenberg,27,German,Racing Point,3,52,+55.951,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Sebastian Vettel,5,German,Ferrari,11,48,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Lando Norris,4,British,McLaren,10,39,+43.774,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Daniil Kvyat,26,Russian,AlphaTauri,12,51,+21.756,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Esteban Ocon,31,French,Renault,7,48,+1:08.006,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Charles Leclerc,16,Monegasque,Ferrari,4,54,+30.814,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Sergio Pérez,11,Mexican,Racing Point,5,49,\N,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Carlos Sainz,55,Spanish,McLaren,10,62,+20.230,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Alexander Albon,23,Thai,Red Bull,4,54,+46.484,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Daniel Ricciardo,3,Australian,Renault,6,38,+19.368,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Daniil Kvyat,26,Russian,AlphaTauri,6,80,+14.534,6.0,7,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Lando Norris,4,British,McLaren,14,58,+1:01.259,5.0,8,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Kimi Räikkönen,7,Finnish,Alfa Romeo,9,52,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Pierre Gasly,10,French,Red Bull,13,42,+58.094,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Sergio Pérez,11,Mexican,Racing Point,12,37,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Lando Norris,4,British,McLaren,7,43,+1:40.268,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Carlos Sainz,55,Spanish,McLaren,12,59,+32.342,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Alexander Albon,23,Thai,Toro Rosso,10,43,+55.200,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Pierre Gasly,10,French,Red Bull,5,51,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Nico Hülkenberg,27,German,Renault,13,46,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Carlos Sainz,55,Spanish,McLaren,19,53,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Kimi Räikkönen,7,Finnish,Alfa Romeo,12,51,+1:05.540,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Kevin Magnussen,20,Danish,Haas F1 Team,12,62,+18.765,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Valtteri Bottas,77,Finnish,Mercedes,2,59,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Nico Hülkenberg,27,German,Renault,12,34,+1:46.639,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Max Verstappen,33,Dutch,Red Bull,19,41,+1:14.492,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Pierre Gasly,10,French,Toro Rosso,11,58,+15.547,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Lando Norris,4,British,McLaren,7,52,+57.749,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Sergio Pérez,11,Mexican,Racing Point,17,46,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Daniel Ricciardo,3,Australian,Renault,13,53,+1:14.924,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Carlos Sainz,55,Spanish,McLaren,7,44,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Lando Norris,4,British,McLaren,10,63,+11.204,4.0,8,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Lando Norris,4,British,McLaren,6,50,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Esteban Ocon,31,French,Renault,14,64,+17.456,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Daniel Ricciardo,3,Australian,Renault,8,65,+1:02.591,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Daniel Ricciardo,3,Australian,Renault,11,46,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Alexander Albon,23,Thai,Red Bull,12,52,+32.670,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Esteban Ocon,31,French,Renault,14,50,+1:04.773,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Alexander Albon,23,Thai,Red Bull,6,41,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Pierre Gasly,10,French,AlphaTauri,12,29,+47.371,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Esteban Ocon,31,French,Renault,12,52,+18.691,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Charles Leclerc,16,Monegasque,Ferrari,5,50,+28.345,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Daniil Kvyat,26,Russian,AlphaTauri,11,48,+1:08.740,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Nico Hülkenberg,27,German,Racing Point,20,58,+32.596,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Esteban Ocon,31,French,Renault,11,61,\N,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Lando Norris,4,British,McLaren,9,63,+21.131,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Valtteri Bottas,77,Finnish,Mercedes,2,28,+19.680,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Valtteri Bottas,77,Finnish,Mercedes,1,60,+15.389,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Pierre Gasly,10,French,AlphaTauri,9,53,+1:29.718,4.0,8,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Carlos Sainz,55,Spanish,McLaren,3,68,\N,3.0,9,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,George Russell,63,British,Mercedes,2,80,+18.556,3.0,9,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Lance Stroll,18,Canadian,Racing Point,16,29,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Alexander Albon,23,Thai,Toro Rosso,12,39,+1:02.697,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Kimi Räikkönen,7,Finnish,Alfa Romeo,13,27,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Lance Stroll,18,Canadian,Racing Point,13,38,+1:43.816,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Daniil Kvyat,26,Russian,Toro Rosso,9,64,+33.056,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Daniel Ricciardo,3,Australian,Renault,6,78,+1:00.894,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Lance Stroll,18,Canadian,Racing Point,17,47,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Lando Norris,4,British,McLaren,5,45,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Kimi Räikkönen,7,Finnish,Alfa Romeo,6,57,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Daniil Kvyat,26,Russian,Toro Rosso,17,51,+1:06.720,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Lewis Hamilton,44,British,Mercedes,1,64,+19.667,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Lando Norris,4,British,McLaren,7,65,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Pierre Gasly,10,French,Toro Rosso,13,21,+1:49.168,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Antonio Giovinazzi,99,Italian,Alfa Romeo,10,44,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Nico Hülkenberg,27,German,Renault,8,59,+16.718,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Kevin Magnussen,20,Danish,Haas F1 Team,13,53,+58.779,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Lance Stroll,18,Canadian,Racing Point,12,26,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Pierre Gasly,10,French,Toro Rosso,10,53,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Nico Hülkenberg,27,German,Renault,11,47,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Sergio Pérez,11,Mexican,Racing Point,15,64,+11.529,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Daniil Kvyat,26,Russian,Toro Rosso,13,42,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Antonio Giovinazzi,99,Italian,Alfa Romeo,18,70,+21.146,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Carlos Sainz,55,Spanish,McLaren,9,68,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Lance Stroll,18,Canadian,Racing Point,6,44,+37.311,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Lando Norris,4,British,McLaren,10,49,+1:05.544,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Pierre Gasly,10,French,AlphaTauri,10,44,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Lance Stroll,18,Canadian,Racing Point,9,34,+52.603,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Daniil Kvyat,26,Russian,AlphaTauri,11,44,+22.208,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Kimi Räikkönen,7,Finnish,Alfa Romeo,13,59,+29.770,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Pierre Gasly,10,French,AlphaTauri,9,50,+1:29.766,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Romain Grosjean,8,French,Haas F1 Team,16,54,+39.081,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Daniel Ricciardo,3,Australian,Renault,10,61,\N,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Kimi Räikkönen,7,Finnish,Alfa Romeo,18,63,+22.224,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Lance Stroll,18,Canadian,Racing Point,1,55,+1:12.353,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Esteban Ocon,31,French,Renault,7,37,+22.803,2.0,9,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Esteban Ocon,31,French,Renault,10,47,+1:41.069,2.0,9,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Daniil Kvyat,26,Russian,Toro Rosso,15,39,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Sergio Pérez,11,Mexican,Racing Point,14,51,+1:03.696,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Alexander Albon,23,Thai,Toro Rosso,0,22,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Kimi Räikkönen,7,Finnish,Alfa Romeo,0,48,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Romain Grosjean,8,French,Haas F1 Team,7,64,+34.641,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Romain Grosjean,8,French,Haas F1 Team,13,41,+1:01.034,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Daniil Kvyat,26,Russian,Toro Rosso,10,44,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Pierre Gasly,10,French,Red Bull,9,47,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Antonio Giovinazzi,99,Italian,Alfa Romeo,7,57,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Nico Hülkenberg,27,German,Renault,10,51,+1:12.733,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Robert Kubica,88,Polish,Williams,18,63,+24.987,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Alexander Albon,23,Thai,Toro Rosso,12,65,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Lance Stroll,18,Canadian,Racing Point,16,34,+1:49.838,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Lando Norris,4,British,McLaren,16,52,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Antonio Giovinazzi,99,Italian,Alfa Romeo,10,59,+27.855,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Nico Hülkenberg,27,German,Renault,6,53,+59.841,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Daniil Kvyat,26,Russian,Toro Rosso,14,47,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Nico Hülkenberg,27,German,Renault,12,59,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Sergio Pérez,11,Mexican,Racing Point,0,34,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Daniil Kvyat,26,Russian,Toro Rosso,16,49,+11.931,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Carlos Sainz,55,Spanish,McLaren,8,43,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Sebastian Vettel,5,German,Ferrari,11,71,+24.545,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Daniil Kvyat,26,Russian,AlphaTauri,13,60,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Kevin Magnussen,20,Danish,Haas F1 Team,0,67,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Sebastian Vettel,5,German,Ferrari,10,44,+41.857,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Daniil Kvyat,26,Russian,AlphaTauri,16,52,+1:09.669,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Lando Norris,4,British,McLaren,8,56,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Sergio Pérez,11,Mexican,Racing Point,8,20,+53.179,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Sergio Pérez,11,Mexican,Racing Point,4,50,+23.224,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Sebastian Vettel,5,German,Ferrari,14,59,+29.983,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Alexander Albon,23,Thai,Red Bull,15,51,+1:37.860,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Antonio Giovinazzi,99,Italian,Alfa Romeo,14,38,+40.035,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Sebastian Vettel,5,German,Ferrari,15,62,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Antonio Giovinazzi,99,Italian,Alfa Romeo,20,61,+26.398,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Daniel Ricciardo,3,Australian,Renault,5,54,+1:35.460,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Charles Leclerc,16,Monegasque,Ferrari,12,44,\N,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Lando Norris,4,British,McLaren,19,85,+19.541,1.0,10,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Lance Stroll,18,Canadian,Racing Point,8,41,+1:42.738,1.0,10,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Carlos Sainz,55,Spanish,McLaren,18,9,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Daniel Ricciardo,3,Australian,Renault,12,18,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Romain Grosjean,8,French,Haas F1 Team,6,17,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Robert Kubica,88,Polish,Williams,20,30,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,George Russell,63,British,Williams,19,55,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Antonio Giovinazzi,99,Italian,Alfa Romeo,14,29,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Alexander Albon,23,Thai,Toro Rosso,13,43,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Sergio Pérez,11,Mexican,Racing Point,10,41,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Lando Norris,4,British,McLaren,8,17,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Australian Grand Prix,2019-03-17T05:10:00.000-07:00,Melbourne,Pierre Gasly,10,French,Red Bull,17,39,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Romain Grosjean,8,French,Haas F1 Team,11,3,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Carlos Sainz,55,Spanish,McLaren,7,42,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Daniel Ricciardo,3,Australian,Renault,10,42,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Nico Hülkenberg,27,German,Renault,17,14,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Robert Kubica,88,Polish,Williams,20,13,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,George Russell,63,British,Williams,19,14,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Lance Stroll,18,Canadian,Racing Point,18,31,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Kevin Magnussen,20,Danish,Haas F1 Team,6,41,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Daniil Kvyat,26,Russian,Toro Rosso,15,40,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Bahrain Grand Prix,2019-03-31T15:10:00.000-07:00,Sakhir,Antonio Giovinazzi,99,Italian,Alfa Romeo,16,42,+1:04.599,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Nico Hülkenberg,27,German,Renault,8,14,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Daniil Kvyat,26,Russian,Toro Rosso,11,27,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Lando Norris,4,British,McLaren,15,37,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Robert Kubica,88,Polish,Williams,18,28,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,George Russell,63,British,Williams,17,51,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Antonio Giovinazzi,99,Italian,Alfa Romeo,19,32,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Carlos Sainz,55,Spanish,McLaren,14,44,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Kevin Magnussen,20,Danish,Haas F1 Team,9,35,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Lance Stroll,18,Canadian,Racing Point,16,46,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Chinese Grand Prix,2019-04-14T06:10:00.000-07:00,Shanghai,Romain Grosjean,8,French,Haas F1 Team,10,37,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Daniel Ricciardo,3,Australian,Renault,10,29,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Daniil Kvyat,26,Russian,Toro Rosso,6,28,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Romain Grosjean,8,French,Haas F1 Team,14,33,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Pierre Gasly,10,French,Red Bull,0,34,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Robert Kubica,88,Polish,Williams,0,45,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,George Russell,63,British,Williams,16,42,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Nico Hülkenberg,27,German,Renault,15,43,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Kevin Magnussen,20,Danish,Haas F1 Team,12,42,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Antonio Giovinazzi,99,Italian,Alfa Romeo,17,45,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Azerbaijan Grand Prix,2019-04-28T12:10:00.000-07:00,Baku,Alexander Albon,23,Thai,Toro Rosso,11,49,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Lando Norris,4,British,McLaren,10,28,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Lance Stroll,18,Canadian,Racing Point,16,28,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Robert Kubica,88,Polish,Williams,17,65,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,George Russell,63,British,Williams,19,64,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Antonio Giovinazzi,99,Italian,Alfa Romeo,18,64,+47.691,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Sergio Pérez,11,Mexican,Racing Point,15,65,+46.877,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Kimi Räikkönen,7,Finnish,Alfa Romeo,14,66,+41.803,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Nico Hülkenberg,27,German,Renault,0,65,+39.241,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Daniel Ricciardo,3,Australian,Renault,13,56,+36.758,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Spanish Grand Prix,2019-05-12T13:10:00.000-07:00,Montmeló,Alexander Albon,23,Thai,Toro Rosso,11,65,+35.445,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Charles Leclerc,16,Monegasque,Ferrari,15,6,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Antonio Giovinazzi,99,Italian,Alfa Romeo,18,46,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Robert Kubica,88,Polish,Williams,20,32,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Kimi Räikkönen,7,Finnish,Alfa Romeo,14,50,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Lance Stroll,18,Canadian,Racing Point,17,45,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,George Russell,63,British,Williams,19,76,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Nico Hülkenberg,27,German,Renault,11,65,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Sergio Pérez,11,Mexican,Racing Point,16,67,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Kevin Magnussen,20,Danish,Haas F1 Team,5,61,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Monaco Grand Prix,2019-05-26T13:10:00.000-07:00,Monte-Carlo,Lando Norris,4,British,McLaren,12,61,+1:06.801,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Lando Norris,4,British,McLaren,8,4,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Alexander Albon,23,Thai,Toro Rosso,13,47,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Robert Kubica,88,Polish,Williams,19,64,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Kevin Magnussen,20,Danish,Haas F1 Team,0,41,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,George Russell,63,British,Williams,18,58,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Kimi Räikkönen,7,Finnish,Alfa Romeo,16,60,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Romain Grosjean,8,French,Haas F1 Team,14,60,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Antonio Giovinazzi,99,Italian,Alfa Romeo,12,69,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Sergio Pérez,11,Mexican,Racing Point,15,61,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Canadian Grand Prix,2019-06-09T18:10:00.000-07:00,Montreal,Carlos Sainz,55,Spanish,McLaren,11,37,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Romain Grosjean,8,French,Haas F1 Team,16,42,\N,0.0,20,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,George Russell,63,British,Williams,20,51,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Robert Kubica,88,Polish,Williams,18,50,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Kevin Magnussen,20,Danish,Haas F1 Team,15,50,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Antonio Giovinazzi,99,Italian,Alfa Romeo,10,50,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Alexander Albon,23,Thai,Toro Rosso,11,51,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Daniil Kvyat,26,Russian,Toro Rosso,19,43,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Lance Stroll,18,Canadian,Racing Point,17,44,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Sergio Pérez,11,Mexican,Racing Point,14,42,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,French Grand Prix,2019-06-23T13:10:00.000-07:00,Le Castellet,Daniel Ricciardo,3,Australian,Renault,8,42,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Robert Kubica,88,Polish,Williams,17,55,\N,0.0,20,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Kevin Magnussen,20,Danish,Haas F1 Team,10,69,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,George Russell,63,British,Williams,0,52,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Daniil Kvyat,26,Russian,Toro Rosso,16,58,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Romain Grosjean,8,French,Haas F1 Team,11,56,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Alexander Albon,23,Thai,Toro Rosso,18,59,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Lance Stroll,18,Canadian,Racing Point,14,57,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Nico Hülkenberg,27,German,Renault,15,59,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Daniel Ricciardo,3,Australian,Renault,12,65,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Austrian Grand Prix,2019-06-30T13:10:00.000-07:00,Spielburg,Sergio Pérez,11,Mexican,Racing Point,13,67,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Kevin Magnussen,20,Danish,Haas F1 Team,16,5,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Romain Grosjean,8,French,Haas F1 Team,14,4,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Antonio Giovinazzi,99,Italian,Alfa Romeo,11,17,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Sergio Pérez,11,Mexican,Racing Point,15,50,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Sebastian Vettel,5,German,Ferrari,6,46,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Robert Kubica,88,Polish,Williams,20,50,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,George Russell,63,British,Williams,19,50,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Lance Stroll,18,Canadian,Racing Point,18,49,+1:21.086,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Alexander Albon,23,Thai,Toro Rosso,9,46,+1:15.617,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,British Grand Prix,2019-07-14T13:10:00.000-07:00,Silverstone,Lando Norris,4,British,McLaren,8,50,+1:14.281,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Sergio Pérez,11,Mexican,Racing Point,8,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Daniel Ricciardo,3,Australian,Renault,13,10,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Lando Norris,4,British,McLaren,19,16,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Charles Leclerc,16,Monegasque,Ferrari,10,17,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Nico Hülkenberg,27,German,Renault,9,18,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Valtteri Bottas,77,Finnish,Mercedes,3,54,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Pierre Gasly,10,French,Red Bull,4,56,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Antonio Giovinazzi,99,Italian,Alfa Romeo,11,60,+43.849,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,Kimi Räikkönen,7,Finnish,Alfa Romeo,5,60,+42.214,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,German Grand Prix,2019-07-28T13:10:00.000-07:00,Hockenheim,George Russell,63,British,Williams,17,60,+26.404,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Romain Grosjean,8,French,Haas F1 Team,9,46,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Robert Kubica,88,Polish,Williams,19,42,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Antonio Giovinazzi,99,Italian,Alfa Romeo,17,64,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Lance Stroll,18,Canadian,Racing Point,18,52,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,George Russell,63,British,Williams,15,66,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Daniil Kvyat,26,Russian,Toro Rosso,13,55,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Daniel Ricciardo,3,Australian,Renault,20,49,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Kevin Magnussen,20,Danish,Haas F1 Team,14,67,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Nico Hülkenberg,27,German,Renault,11,59,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Hungarian Grand Prix,2019-08-04T13:10:00.000-07:00,Budapest,Sergio Pérez,11,Mexican,Racing Point,16,47,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Max Verstappen,33,Dutch,Red Bull,5,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Carlos Sainz,55,Spanish,McLaren,15,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Antonio Giovinazzi,99,Italian,Alfa Romeo,18,31,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Robert Kubica,88,Polish,Williams,0,33,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Kimi Räikkönen,7,Finnish,Alfa Romeo,6,37,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,George Russell,63,British,Williams,14,34,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Daniel Ricciardo,3,Australian,Renault,10,21,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Romain Grosjean,8,French,Haas F1 Team,9,18,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Kevin Magnussen,20,Danish,Haas F1 Team,8,33,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Belgian Grand Prix,2019-09-01T13:10:00.000-07:00,Spa,Lando Norris,4,British,McLaren,11,21,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Carlos Sainz,55,Spanish,McLaren,7,10,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Daniil Kvyat,26,Russian,Toro Rosso,12,19,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Kevin Magnussen,20,Danish,Haas F1 Team,11,38,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Robert Kubica,88,Polish,Williams,15,47,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Romain Grosjean,8,French,Haas F1 Team,13,31,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Kimi Räikkönen,7,Finnish,Alfa Romeo,0,52,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,George Russell,63,British,Williams,14,51,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Sebastian Vettel,5,German,Ferrari,4,50,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Lance Stroll,18,Canadian,Racing Point,9,31,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Italian Grand Prix,2019-09-08T13:10:00.000-07:00,Monza,Pierre Gasly,10,French,Toro Rosso,17,51,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,George Russell,63,British,Williams,18,29,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Sergio Pérez,11,Mexican,Racing Point,15,15,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Kimi Räikkönen,7,Finnish,Alfa Romeo,12,18,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Kevin Magnussen,20,Danish,Haas F1 Team,13,58,+1:26.522,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Robert Kubica,88,Polish,Williams,19,59,+47.024,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Daniil Kvyat,26,Russian,Toro Rosso,14,57,+38.178,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Daniel Ricciardo,3,Australian,Renault,20,55,+37.660,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Lance Stroll,18,Canadian,Racing Point,16,57,+36.419,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Carlos Sainz,55,Spanish,McLaren,7,41,+35.974,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Singapore Grand Prix,2019-09-22T12:10:00.000-07:00,Marina Bay,Romain Grosjean,8,French,Haas F1 Team,17,54,+35.436,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Romain Grosjean,8,French,Haas F1 Team,8,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Daniel Ricciardo,3,Australian,Renault,10,22,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Sebastian Vettel,5,German,Ferrari,3,16,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,George Russell,63,British,Williams,17,18,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Robert Kubica,88,Polish,Williams,18,24,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Antonio Giovinazzi,99,Italian,Alfa Romeo,12,51,+1:13.346,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Pierre Gasly,10,French,Toro Rosso,16,51,+1:10.076,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Kimi Räikkönen,7,Finnish,Alfa Romeo,15,51,+1:08.910,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Daniil Kvyat,26,Russian,Toro Rosso,19,52,+1:02.496,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Russian Grand Prix,2019-09-29T11:10:00.000-07:00,Sochi,Lance Stroll,18,Canadian,Racing Point,14,53,+1:00.821,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Nico Hülkenberg,27,German,Renault,15,47,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Daniel Ricciardo,3,Australian,Renault,16,48,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Max Verstappen,33,Dutch,Red Bull,5,10,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Robert Kubica,88,Polish,Williams,0,44,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,George Russell,63,British,Williams,18,27,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Kevin Magnussen,20,Danish,Haas F1 Team,19,49,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Antonio Giovinazzi,99,Italian,Alfa Romeo,11,51,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Romain Grosjean,8,French,Haas F1 Team,10,18,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Kimi Räikkönen,7,Finnish,Alfa Romeo,13,50,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Japanese Grand Prix,2019-10-13T05:10:00.000-07:00,Suzuka,Lando Norris,4,British,McLaren,8,31,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Lando Norris,4,British,McLaren,8,46,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Kimi Räikkönen,7,Finnish,Alfa Romeo,14,55,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Robert Kubica,88,Polish,Williams,20,63,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Romain Grosjean,8,French,Haas F1 Team,18,68,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,George Russell,63,British,Williams,19,69,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Kevin Magnussen,20,Danish,Haas F1 Team,17,53,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Antonio Giovinazzi,99,Italian,Alfa Romeo,15,65,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Carlos Sainz,55,Spanish,McLaren,7,66,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Lance Stroll,18,Canadian,Racing Point,16,68,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Mexican Grand Prix,2019-10-27T19:10:00.000-07:00,Mexico City,Daniil Kvyat,26,Russian,Toro Rosso,9,48,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Sebastian Vettel,5,German,Ferrari,2,6,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Robert Kubica,88,Polish,Williams,19,22,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Kevin Magnussen,20,Danish,Haas F1 Team,12,42,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,George Russell,63,British,Williams,18,54,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Pierre Gasly,10,French,Toro Rosso,10,31,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Romain Grosjean,8,French,Haas F1 Team,15,52,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Antonio Giovinazzi,99,Italian,Alfa Romeo,16,41,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Lance Stroll,18,Canadian,Racing Point,14,42,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Daniil Kvyat,26,Russian,Toro Rosso,13,41,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,United States Grand Prix,2019-11-03T19:10:00.000-08:00,Austin,Kimi Räikkönen,7,Finnish,Alfa Romeo,17,46,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Valtteri Bottas,77,Finnish,Mercedes,4,43,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Lance Stroll,18,Canadian,Racing Point,17,65,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Charles Leclerc,16,Monegasque,Ferrari,14,63,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Sebastian Vettel,5,German,Ferrari,2,51,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Robert Kubica,88,Polish,Williams,19,63,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Nico Hülkenberg,27,German,Renault,13,64,+18.059,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Alexander Albon,23,Thai,Red Bull,5,52,+14.927,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Romain Grosjean,8,French,Haas F1 Team,7,29,+14.247,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,George Russell,63,British,Williams,18,57,+13.599,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Brazilian Grand Prix,2019-11-17T17:10:00.000-08:00,São Paulo,Kevin Magnussen,20,Danish,Haas F1 Team,9,65,+12.732,0.0,11,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Lance Stroll,18,Canadian,Racing Point,12,25,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Robert Kubica,88,Polish,Williams,19,51,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Pierre Gasly,10,French,Toro Rosso,11,53,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,George Russell,63,British,Williams,18,50,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Antonio Giovinazzi,99,Italian,Alfa Romeo,16,28,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Romain Grosjean,8,French,Haas F1 Team,15,33,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Kevin Magnussen,20,Danish,Haas F1 Team,14,22,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Kimi Räikkönen,7,Finnish,Alfa Romeo,17,25,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Nico Hülkenberg,27,German,Renault,9,52,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2019,Abu Dhabi Grand Prix,2019-12-01T13:10:00.000-08:00,Abu Dhabi,Daniel Ricciardo,3,Australian,Renault,7,51,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Max Verstappen,33,Dutch,Red Bull,2,5,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Daniel Ricciardo,3,Australian,Renault,10,8,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Lance Stroll,18,Canadian,Racing Point,9,4,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Kevin Magnussen,20,Danish,Haas F1 Team,16,23,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Romain Grosjean,8,French,Haas F1 Team,15,46,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,George Russell,63,British,Williams,17,49,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Kimi Räikkönen,7,Finnish,Alfa Romeo,19,48,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Alexander Albon,23,Thai,Red Bull,4,50,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Daniil Kvyat,26,Russian,AlphaTauri,13,50,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Austrian Grand Prix,2020-07-05T13:10:00.000-07:00,Spielburg,Nicholas Latifi,6,Canadian,Williams,20,63,+31.650,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Sebastian Vettel,5,German,Ferrari,10,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Charles Leclerc,16,Monegasque,Ferrari,14,3,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Esteban Ocon,31,French,Renault,5,22,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Nicholas Latifi,6,Canadian,Williams,18,68,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,George Russell,63,British,Williams,11,36,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Pierre Gasly,10,French,AlphaTauri,7,69,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Antonio Giovinazzi,99,Italian,Alfa Romeo,19,54,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Romain Grosjean,8,French,Haas F1 Team,0,69,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Kevin Magnussen,20,Danish,Haas F1 Team,15,69,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Styrian Grand Prix,2020-07-12T13:10:00.000-07:00,Spielburg,Kimi Räikkönen,7,Finnish,Alfa Romeo,16,57,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Pierre Gasly,10,French,AlphaTauri,10,10,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Nicholas Latifi,6,Canadian,Williams,15,64,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,George Russell,63,British,Williams,12,67,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Antonio Giovinazzi,99,Italian,Alfa Romeo,19,44,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Romain Grosjean,8,French,Haas F1 Team,0,61,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Kimi Räikkönen,7,Finnish,Alfa Romeo,20,67,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Esteban Ocon,31,French,Renault,14,40,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Lando Norris,4,British,McLaren,8,42,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Daniil Kvyat,26,Russian,AlphaTauri,17,51,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Hungarian Grand Prix,2020-07-19T13:10:00.000-07:00,Budapest,Charles Leclerc,16,Monegasque,Ferrari,6,64,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Nico Hülkenberg,27,German,Racing Point,13,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Kevin Magnussen,20,Danish,Haas F1 Team,14,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Daniil Kvyat,26,Russian,AlphaTauri,19,11,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Kimi Räikkönen,7,Finnish,Alfa Romeo,16,49,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Romain Grosjean,8,French,Haas F1 Team,17,49,+55.050,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Nicholas Latifi,6,Canadian,Williams,18,44,+54.549,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Antonio Giovinazzi,99,Italian,Alfa Romeo,15,49,+54.205,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Carlos Sainz,55,Spanish,McLaren,7,47,+53.370,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,George Russell,63,British,Williams,20,41,+52.004,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,British Grand Prix,2020-08-02T13:10:00.000-07:00,Silverstone,Valtteri Bottas,77,Finnish,Mercedes,2,41,+42.167,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Kevin Magnussen,20,Danish,Haas F1 Team,17,39,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Nicholas Latifi,6,Canadian,Williams,18,48,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,George Russell,63,British,Williams,15,50,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Antonio Giovinazzi,99,Italian,Alfa Romeo,19,37,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Romain Grosjean,8,French,Haas F1 Team,13,51,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Kimi Räikkönen,7,Finnish,Alfa Romeo,20,30,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Daniel Ricciardo,3,Australian,Renault,5,39,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Carlos Sainz,55,Spanish,McLaren,12,49,+1:14.070,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Sebastian Vettel,5,German,Ferrari,11,49,+1:13.370,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,70th Anniversary Grand Prix,2020-08-09T13:10:00.000-07:00,Silverstone,Pierre Gasly,10,French,AlphaTauri,7,52,+1:10.642,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Charles Leclerc,16,Monegasque,Ferrari,9,35,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Romain Grosjean,8,French,Haas F1 Team,17,64,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Nicholas Latifi,6,Canadian,Williams,19,60,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,George Russell,63,British,Williams,18,37,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Antonio Giovinazzi,99,Italian,Alfa Romeo,20,47,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Kevin Magnussen,20,Danish,Haas F1 Team,16,64,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Kimi Räikkönen,7,Finnish,Alfa Romeo,14,47,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Esteban Ocon,31,French,Renault,15,65,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Daniil Kvyat,26,Russian,AlphaTauri,12,47,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Spanish Grand Prix,2020-08-16T13:10:00.000-07:00,Montmeló,Daniel Ricciardo,3,Australian,Renault,13,51,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Carlos Sainz,55,Spanish,McLaren,7,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,George Russell,63,British,Williams,15,5,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Antonio Giovinazzi,99,Italian,Alfa Romeo,18,9,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Kevin Magnussen,20,Danish,Haas F1 Team,20,37,+1:25.540,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Nicholas Latifi,6,Canadian,Williams,19,32,+1:17.795,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Romain Grosjean,8,French,Haas F1 Team,17,28,+1:16.793,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Charles Leclerc,16,Monegasque,Ferrari,13,26,+1:14.920,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Sebastian Vettel,5,German,Ferrari,14,31,+1:12.894,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Kimi Räikkönen,7,Finnish,Alfa Romeo,16,28,+1:11.504,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Belgian Grand Prix,2020-08-30T13:10:00.000-07:00,Spa,Daniil Kvyat,26,Russian,AlphaTauri,11,28,+1:10.200,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Sebastian Vettel,5,German,Ferrari,17,4,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Kevin Magnussen,20,Danish,Haas F1 Team,15,10,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Charles Leclerc,16,Monegasque,Ferrari,13,19,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Max Verstappen,33,Dutch,Red Bull,5,10,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Antonio Giovinazzi,99,Italian,Alfa Romeo,18,43,+55.199,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Alexander Albon,23,Thai,Red Bull,9,48,+37.533,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,George Russell,63,British,Williams,19,39,+36.593,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Kimi Räikkönen,7,Finnish,Alfa Romeo,14,29,+36.312,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Romain Grosjean,8,French,Haas F1 Team,16,48,+35.164,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Italian Grand Prix,2020-09-06T13:10:00.000-07:00,Monza,Nicholas Latifi,6,Canadian,Williams,20,39,+32.876,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Pierre Gasly,10,French,AlphaTauri,16,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Max Verstappen,33,Dutch,Red Bull,3,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Carlos Sainz,55,Spanish,McLaren,9,5,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Antonio Giovinazzi,99,Italian,Alfa Romeo,17,4,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Kevin Magnussen,20,Danish,Haas F1 Team,20,4,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Nicholas Latifi,6,Canadian,Williams,19,6,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Esteban Ocon,31,French,Renault,10,6,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Lance Stroll,18,Canadian,Racing Point,6,42,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,Romain Grosjean,8,French,Haas F1 Team,15,59,+42.036,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Tuscan Grand Prix,2020-09-13T13:10:00.000-07:00,Mugello,George Russell,63,British,Williams,18,58,+32.404,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Lance Stroll,18,Canadian,Racing Point,12,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Carlos Sainz,55,Spanish,McLaren,6,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,George Russell,63,British,Williams,13,52,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Romain Grosjean,8,French,Haas F1 Team,16,44,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Nicholas Latifi,6,Canadian,Williams,20,47,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Lando Norris,4,British,McLaren,8,50,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Kimi Räikkönen,7,Finnish,Alfa Romeo,19,37,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Sebastian Vettel,5,German,Ferrari,14,46,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Kevin Magnussen,20,Danish,Haas F1 Team,18,52,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Russian Grand Prix,2020-09-27T11:10:00.000-07:00,Sochi,Antonio Giovinazzi,99,Italian,Alfa Romeo,17,44,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,George Russell,63,British,Williams,17,6,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Valtteri Bottas,77,Finnish,Mercedes,1,8,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Esteban Ocon,31,French,Renault,7,21,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Alexander Albon,23,Thai,Red Bull,5,9,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Lando Norris,4,British,McLaren,8,40,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Daniil Kvyat,26,Russian,AlphaTauri,13,41,+55.588,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Nicholas Latifi,6,Canadian,Williams,18,39,+54.449,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Kevin Magnussen,20,Danish,Haas F1 Team,15,37,+49.585,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Kimi Räikkönen,7,Finnish,Alfa Romeo,19,54,+41.476,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Eifel Grand Prix,2020-10-11T13:10:00.000-07:00,Nürburg,Sebastian Vettel,5,German,Ferrari,11,43,+40.810,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Lance Stroll,18,Canadian,Racing Point,12,45,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Daniil Kvyat,26,Russian,AlphaTauri,13,59,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Nicholas Latifi,6,Canadian,Williams,20,53,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Romain Grosjean,8,French,Haas F1 Team,18,59,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Kevin Magnussen,20,Danish,Haas F1 Team,19,63,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Antonio Giovinazzi,99,Italian,Alfa Romeo,17,46,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,George Russell,63,British,Williams,14,62,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Lando Norris,4,British,McLaren,8,65,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Alexander Albon,23,Thai,Red Bull,6,61,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Portuguese Grand Prix,2020-10-25T12:10:00.000-07:00,Portimão,Kimi Räikkönen,7,Finnish,Alfa Romeo,16,60,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Pierre Gasly,10,French,AlphaTauri,4,5,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Esteban Ocon,31,French,Renault,12,22,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Kevin Magnussen,20,Danish,Haas F1 Team,17,45,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Max Verstappen,33,Dutch,Red Bull,3,44,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,George Russell,63,British,Williams,13,43,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Alexander Albon,23,Thai,Red Bull,6,63,+57.284,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Romain Grosjean,8,French,Haas F1 Team,16,45,+32.935,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Lance Stroll,18,Canadian,Racing Point,15,46,+29.163,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Sebastian Vettel,5,German,Ferrari,14,44,+28.453,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Emilia Romagna Grand Prix,2020-11-01T12:10:00.000-08:00,Imola,Nicholas Latifi,6,Canadian,Williams,19,37,+27.135,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Antonio Giovinazzi,99,Italian,Alfa Romeo,10,11,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Nicholas Latifi,6,Canadian,Williams,0,32,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Romain Grosjean,8,French,Haas F1 Team,17,38,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Kevin Magnussen,20,Danish,Haas F1 Team,13,45,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,George Russell,63,British,Williams,0,51,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Kimi Räikkönen,7,Finnish,Alfa Romeo,8,57,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Valtteri Bottas,77,Finnish,Mercedes,9,57,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Pierre Gasly,10,French,AlphaTauri,19,53,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Daniil Kvyat,26,Russian,AlphaTauri,16,53,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Turkish Grand Prix,2020-11-15T10:10:00.000-08:00,Istanbul,Esteban Ocon,31,French,Renault,7,55,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Romain Grosjean,8,French,Haas F1 Team,19,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Lance Stroll,18,Canadian,Racing Point,13,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Sergio Pérez,11,Mexican,Racing Point,5,40,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Kevin Magnussen,20,Danish,Haas F1 Team,18,29,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Antonio Giovinazzi,99,Italian,Alfa Romeo,16,22,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Kimi Räikkönen,7,Finnish,Alfa Romeo,17,43,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Nicholas Latifi,6,Canadian,Williams,20,39,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Sebastian Vettel,5,German,Ferrari,11,41,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,George Russell,63,British,Williams,14,47,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Bahrain Grand Prix,2020-11-29T14:10:00.000-08:00,Sakhir,Daniil Kvyat,26,Russian,AlphaTauri,10,35,\N,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Charles Leclerc,16,Monegasque,Ferrari,4,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Max Verstappen,33,Dutch,Red Bull,3,"",\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Nicholas Latifi,6,Canadian,Williams,16,29,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Pietro Fittipaldi,51,Brazilian,Haas F1 Team,20,56,+36.858,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Jack Aitken,89,British,Williams,17,56,+33.674,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Kevin Magnussen,20,Danish,Haas F1 Team,15,57,+32.370,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Kimi Räikkönen,7,Finnish,Alfa Romeo,18,56,+26.153,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Antonio Giovinazzi,99,Italian,Alfa Romeo,14,56,+24.111,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Sebastian Vettel,5,German,Ferrari,13,56,+22.611,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Sakhir Grand Prix,2020-12-06T17:10:00.000-08:00,Sakhir,Pierre Gasly,10,French,AlphaTauri,9,53,+20.527,0.0,11,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Sergio Pérez,11,Mexican,Racing Point,19,6,\N,0.0,"",2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Pietro Fittipaldi,51,Brazilian,Haas F1 Team,17,50,\N,0.0,19,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Kevin Magnussen,20,Danish,Haas F1 Team,20,50,\N,0.0,18,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Nicholas Latifi,6,Canadian,Williams,18,49,\N,0.0,17,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Antonio Giovinazzi,99,Italian,Alfa Romeo,14,29,\N,0.0,16,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,George Russell,63,British,Williams,16,54,\N,0.0,15,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Sebastian Vettel,5,German,Ferrari,13,37,\N,0.0,14,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Charles Leclerc,16,Monegasque,Ferrari,12,24,\N,0.0,13,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Kimi Räikkönen,7,Finnish,Alfa Romeo,15,53,\N,0.0,12,2024-07-12T11:40:19.668-07:00
+2020,Abu Dhabi Grand Prix,2020-12-13T13:10:00.000-08:00,Abu Dhabi,Daniil Kvyat,26,Russian,AlphaTauri,7,47,\N,0.0,11,2024-07-12T11:40:19.668-07:00

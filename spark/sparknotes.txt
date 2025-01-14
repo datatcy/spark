@@ -1,0 +1,201 @@
+To perform batch processing, we were using Hadoop MapReduce.
+Also, to perform stream processing, we were using Apache Storm / S4.
+Moreover, for interactive processing, we were using Apache Impala / Apache Tez.
+To perform graph processing, we were using Neo4j / Apache Giraph.
+
+The key abstraction of Spark is RDD. RDD is an acronym for Resilient Distributed Dataset. It is the fundamental unit of data in Spark. Basically, it is a distributed collection of elements across cluster nodes. Also performs parallel operations. Moreover, Spark RDDs are immutable in nature. Although, it can generate new RDD by transforming existing Spark RDD
+
+Apache Spark Discretized Stream is the key abstraction of Spark Streaming. That is what we call Spark DStream. Basically, it represents a stream of data divided into small batches. Moreover, DStreams are built on Spark RDDs, Spark’s core data abstraction. It also allows Streaming to seamlessly integrate with any other Apache Spark components. Such as Spark MLlib and Spark SQL.
+
+2. What is Apache Spark?
+Apache Spark is general purpose cluster computing system. It provides high-level API in Java, Scala, Python, and R. Spark provide an optimized engine that supports general execution graph. It also has abundant high-level tools for structured data processing, machine learning, graph processing and streaming. The Spark can either run alone or on an existing cluster manager.
+
+SparkContext - SparkConfig (To get status of existing application, To configure application, To register spark listener, To stop job, To stop stage, To get persistedRDD, To unpresistRDD)
+
+DSM (Distributed Shared Memory) is a very general abstraction, but this generality makes it harder to implement in an efficient and fault tolerant manner on commodity clusters. Here the need of RDD comes into the picture.
+
+RDD Transformation 1. Narrow Transformation, 2. Wide Transformation
+	1. Narrow Transformation. (MAP, Filter, Union, FlatMap,Sample, MapPartition)
+	2. Wide Transformation (Interseciton, Distinct, ReduceByKey, GroupByKey,Join, Cartesian, Repartition, Coalesece
+
+i. No input optimization engine
+There is no provision in RDD for automatic optimization. It cannot make use of Spark advance optimizers like catalyst optimizer and Tungsten execution engine. We can optimize each RDD manually.
+This limitation is overcome in Dataset and DataFrame, both make use of Catalyst to generate optimized logical and physical query plan. We can use same code optimizer for R, Java, Scala, or Python DataFrame/Dataset APIs. It provides space and speed efficiency.
+
+Narrow transformation – In Narrow transformation, all the elements that are required to compute the records in single partition live in the single partition of parent RDD. A limited subset of partition is used to calculate the result. Narrow transformations are the result of map(), filter().
+
+Wide transformation – In wide transformation, all the elements that are required to compute the records in the single partition may live in many partitions of parent RDD. The partition may live in many partitions of parent RDD. Wide transformations are the result of groupbyKey() and reducebyKey().
+
+Transformation: 
+1.MAP
+2.FILTER
+3.GROUPBYKEY
+4.JOIN
+5.UNION
+6.CARTISIAN
+7.INTERSECTION
+8.UNION
+9.REDUCEBYKEY
+10.DISTINCT
+11.FLATMAP
+12.COALESCE
+13.SUBTRACT
+
+Action
+1.FIRST
+2.REDUCE
+3.TAKEORDERED
+4.COUNTBYKEY
+5.AGGREGATE
+6.COUNTBYVALUE
+7.SAMPLE
+8.UNPERSIST
+9.TODEBUGSTRING
+10.FOLDBYKEY
+11.LOOKUP
+12.COLLECTASMAP 1:50
+13.TOP
+14.TAKE
+15.COUNT
+16.COLLECT
+17.REDUCE
+18.FOLD
+19.AGGREGATE
+20.FOREACH
+
+
+At higher level, we can apply two type of RDD transformations: narrow transformation (e.g. map(), filter() etc.) and wide transformation (e.g. reduceByKey()). Narrow transformation does not require the shuffling of data across a partition, the narrow transformations will group into single stage while in wide transformation the data shuffles. Hence, Wide transformation results in stage boundaries.
+
+We optimize the DAG in Apache Spark by rearranging and combining operators wherever possible. For, example if we submit a spark job which has a map() operation followed by a filter operation. The DAG Optimizer will rearrange the order of these operators since filtering will reduce the number of records to undergo map operation.
+
+The lost RDD can recover using the Directed Acyclic Graph.
+Map Reduce has just two queries the map, and reduce but in DAG we have multiple levels. So to execute SQL query, DAG is more flexible.
+DAG helps to achieve fault tolerance. Thus we can recover the lost data.
+It can do a better global optimization than a system like Hadoop MapReduce.
+
+Broadcast Variable:
+Broadcast variable in apache spark is a mechanism for sharing variables across executors that are meant to be ready-only
+Without broadcast variables these variables would be shipped to each executor for every transformation and action, and this can cause network overhead
+However with broadcast variables, they are shipped once to all executors and are cached for future reference
+
+Shared Variable Accumulator:
+Accumulators are variables that are used for aggregating information across the executors
+For Exp, this information can pertain to data or API diagnosis like how many records are corrupted or how many times a particular library API was called
+Spark natively supports accumulators of numeric types, and programmers can add support for new types
+As a user you can create named or unnamed accumulators
+
+SparkContext is the heart of Spark Application. It establishes a connection to the Spark Execution environment. It is used to create Spark RDDs, accumulators, and broadcast variables, access Spark services and run jobs. SparkContext is a client of Spark execution environment and acts as the master of Spark application. The main works of Spark Context are:
+
+Getting the current status of spark application
+Canceling the job
+Canceling the Stage
+Running job synchronously
+Running job asynchronously
+Accessing persistent RDD
+Unpersisting RDD
+Programmable dynamic allocation
+
+ii. Apache Spark Shell
+Spark Shell is a Spark Application written in Scala. It offers command line environment with auto-completion. It helps us to get familiar with the features of Spark, which help in developing our own Standalone Spark Application. Thus, this tool helps in exploring Spark and is also the reason why Spark is so helpful in processing data set of all size.
+
+iii. Spark Application
+The Spark application is a self-contained computation that runs user-supplied code to compute a result. A Spark application can have processes running on its behalf even when it’s not running a job.
+
+iv. Task
+A task is a unit of work that sends to the executor. Each stage has some task, one task per partition. The Same task is done over different partitions of RDD.
+Learn: Spark Shell Commands to Interact with Spark-Scala
+
+v. Job
+The job is parallel computation consisting of multiple tasks that get spawned in response to actions in Apache Spark.
+
+vi. Stage
+Each job divides into smaller sets of tasks called stages that depend on each other. Stages are classified as computational boundaries. All computation cannot be done in a single stage. It achieves over many stages.
+
+Types of Apache Spark Checkpoint i.e Metadata Checkpointing, Data Checkpointing, the comparison between Checkpointing vs Persist() in Spark are also covered in this Spark tutorial.
+
+Metadata Checkpointing – Metadata means the data about data. It refers to saving the metadata to fault tolerant storage like HDFS. Metadata includes configurations, DStream operations, and incomplete batches. Configuration refers to the configuration used to create streaming DStream operations are operations which define the steaming application. Incomplete batches are batches which are in the queue but are not complete.
+Data Checkpointing –: It refers to save the RDD to reliable storage because its need arises in some of the stateful transformations. It is in the case when the upcoming RDD depends on the RDDs of previous batches. Because of this, the dependency keeps on increasing with time. Thus, to avoid such increase in recovery time the intermediate RDDs are periodically checkpointed to some reliable storage. As a result, it cuts down the dependency chain.
+
+a. Extraction in Featurization of Apache Spark MLlib
+Here, we have 3 types of MLlib in Apache Spark Extractions:
+i. TF-IDF
+There is a feature vectorization method widely used in text mining to reflect the importance of a term to a document in the corpus. That is what we call a Term Frequency-Inverse Document Frequency (TF-IDF). Here we are denoting a term by t, also a document by d, whereas the corpus by D. Moreover, Term frequency TF(t,d) is the number of times that term t appears in document d. While document frequency DF(t, D)DF(t, D) is the number of documents that contain term t.
+
+Apache Spark MLlib
+Extraction in Featurization of Apache Spark MLlib
+
+ii. Word2Vec
+An estimator that takes sequences of words representing documents and trains a Word2VecModel is Word2Vec. It is the model that maps each word to a unique fixed-size vector. Moreover, Word2VecModel helps to transform each document into a vector using the average of all words in the document. Afterward, this vector can then be used as features for prediction, document similarity calculations and many more.
+
+Have a look at Spark RDD
+iii. CountVectorizer
+To convert a collection of text documents to vectors of token counts, we use CountVectorizer and CountVectorizerModel. We can use CountVectorizer as an estimator to extract the vocabulary when an a-priori dictionary is not available. Also generates a CountVectorizerModel. In addition, this model produces sparse representations for the documents over the vocabulary. Also, that can be passed to other algorithms like LDA.
+
+b. Feature Transformers in Featurization of Apache Spark MLlib
+i. Tokenizer
+The process of taking the text (such as a sentence) and breaking it into individual terms (usually words), is known as Tokenization. Although, it is a functionality which is offered by a simple Tokenizer class.
+ii. StopWordsRemover
+There are some words which are Stop words. It is a compulsion that these words should be excluded from the input. Since the words appear frequently. Also, don’t carry as much meaning.
+iii. n-gram
+A sequence of n tokens (typically words) for some integer n is an n-gram. Moreover, we use N-Gram class to transform input features into n-grams.
+iv. Binarizer
+The process of thresholding numerical features to binary (0/1) features, is Binarization.
+
+Do you know about Structured Streaming in SparkR
+Basically, it takes the common parameters. Such as inputCol, outputCol, and the threshold for binarization. Moreover, the feature values greater than the threshold are binarized to 1.0. Whereas, values equal to or less than the threshold are binarized to 0.0. Although, inputCol support both vector and double types.
+v. PCA
+Basically, it is a statistical procedure. It uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables, that is called as principal components. Moreover, it trains a model to project vectors to a low-dimensional space.
+vi. PolynomialExpansion
+Basically, a process of expanding features into a polynomial space is Polynomial expansion. In addition, it is formulated by an n-degree combination of original dimensions. Moreover, a Polynomial expansion class offers this functionality.
+vii. StringIndexer
+Basically, StringIndexer encodes a string column of labels to a column of label indices. Moreover, the indices are in [0, numLabels), ordered by label frequencies. Hence, the most frequent label gets index 0.
+viii. IndexToString
+As same as StringIndexer, it also maps a column of label indices back to a column containing the original labels as strings.
+ix. OneHotEncoder
+Basically, it maps a column of label indices to a column of binary vectors, with at most a single one-value. Moreover, this encoding allows algorithms. That expect continuous features, such as Logistic Regression, to use categorical features.
+x. VectorIndexer
+In datasets of vectors, VectorIndexer helps index categorical features. Basically, it can both automatically decide which features are categorical. Also, converts original values to category indices. More specifically, it does all this following:
+
+Have a look at data type mapping between R and Spark
+
+It takes an input column of type vector and a parameter maxCategories.
+Basically, it decides which features should be categorical. On the basis of the number of distinct values, where features with at most maxCategories are declared categorical.
+Also, compute 0-based category indices for each categorical feature.
+Moreover, index categorical features and transforms original feature values to indices.
+xi. Interaction
+It is a type of transformer that takes vector or double-valued columns. Afterwards generates a single vector column. Basically, that contains the product of all combinations of one value from each input column.
+xii. Normalizer
+It is a type of transformer that transforms a dataset of vector rows, normalizing each vector to have unit norm. Basically, it takes parameter p, that specifies the p-norm used for normalization.
+xiii. StandardScaler
+Basically, StandardScaler transforms a dataset of vector rows. Also, normalizes each feature to have unit standard deviation and/or zero mean. 
+xiv. withStd
+It is true by default. Moreover, it Scales the data to a unit standard deviation.
+xv. withMean
+It is false by default. Basically, it centers the data with mean before scaling. Also builds a dense output, so take care when applying to sparse input.
+xvi. MinMaxScaler
+Basically, it transforms a dataset of vector rows. Also, rescales each feature to a specific range (often [0, 1]). It takes parameters:
+
+
+Apache Spark MLlib
+MinMaxScaler
+
+Min
+It takes 0.0 by default. Lower bound after transformation, shared by all features.
+
+max
+Featurization It takes  1.0 by default. Upper bound after transformation, shared by all features.
+xvii. MaxAbsScaler
+It transforms a dataset of vector rows. Also, rescales each feature to the range [-1, 1] by dividing by the maximum absolute value in each feature. Moreover, it does not shift/center the data. Therefore, it does not destroy any sparsity.
+
+Let’s revise Spark machine Learning with R
+xviii. Bucketizer
+Basically, it transforms a column of continuous features to a column of feature buckets. However, the buckets are specified by users.
+xix. ElementwiseProduct
+By using element-wise multiplication, it multiplies each input vector by a provided “weight” vector. Also, we can define it as it scales each column of the dataset by a scalar multiplier. Moreover, this shows the Hadamard product between the input vector, v and transforming vector, w. Thus it yields a result vector.
+xx. SQLTransformer
+Basically, it implements the transformations those are defined by SQL statement. Although, recently we only support SQL syntax like “SELECT … FROM __THIS__ …” where “__THIS__”.
+xxi. VectorAssembler
+It is also a transformer. Basically, it combines a given list of columns into a single vector column. Although, it is useful for combining raw features. Also with features generated by different feature transformers into a single feature vector. 
+xxii. Imputer
+Basically, the Imputer transformer completes missing values in a dataset. Either using the mean or the median of the columns in which the missing values are located. Moreover, the input columns should be of DoubleType or FloatType.
+

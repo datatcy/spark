@@ -1,0 +1,9 @@
+employee_id,employee_name,manager_id,salary
+1,Alice,,150000
+2,Bob,1,120000
+3,Charlie,1,110000
+4,David,2,105000
+5,Eve,2,100000
+6,Frank,3,95000
+7,Grace,3,98000
+8,Helen,5,90000

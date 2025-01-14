@@ -1,0 +1,4 @@
+departure_airport,arrival_airport,flights_count
+1,2,4
+2,1,5
+2,4,5
